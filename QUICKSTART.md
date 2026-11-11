@@ -1,14 +1,18 @@
 # Quick Start Guide
 
-## Installation (30 seconds)
+## Installation
 
 ```bash
 cd behavioral-bias-detector
-pip install -r requirements.txt
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 python app.py
 ```
 
 Visit `http://localhost:5000` in your browser.
+
+The pinned stack was verified with Python 3.9. On Windows, use `.venv\Scripts\Activate.ps1` for activation. Run `python -m unittest discover -s tests -v` to check the API without a server. See the [README](README.md#installation) for a port-5000 alternative and API input rules.
 
 ## First Steps
 
@@ -40,7 +44,7 @@ Visit `http://localhost:5000` in your browser.
 ### Bias Details
 For each detected bias:
 - **Score**: How much this pricing exploits this bias (0-100)
-- **Confidence**: How certain we are in detection (0-100%)
+- **Confidence**: A heuristic derived from matched indicators, not a calibrated probability
 - **Indicators**: Specific keywords/patterns matched
 - **Explanation**: Why this bias matters psychologically
 
@@ -119,15 +123,11 @@ Use results to:
 7. **Generates explanations** grounded in behavioral economics
 
 ### Bias Detection Sensitivity
-The detector is tuned to:
-- Avoid false positives (low bias false alarms)
-- Catch real manipulation (high precision)
-- Require multiple indicators for high confidence
-- Weight pattern matches heavily
+The detector combines keyword and regex matches, with multiple indicators contributing to its confidence heuristic. Its precision and recall have not been established by a labeled benchmark in this repository.
 
 ### Limitations
 - Text-based analysis only (can't detect UI/UX manipulations)
-- Keyword matching has false negative rate (~10-15%)
+- Keyword matching can miss context and produce false positives; no measured error rate is included
 - Works best with detailed pricing descriptions
 - Doesn't measure magnitude of financial impact
 - English language only

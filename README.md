@@ -2,6 +2,8 @@
 
 A web application that analyzes any product's pricing structure to identify and score behavioral economics biases it exploits.
 
+The scores and confidence values are keyword/regex heuristics, not calibrated probabilities or a validated measure of consumer harm. No labeled evaluation dataset is included.
+
 ## Overview
 
 This tool applies frameworks from behavioral economics and behavioral finance to detect manipulation tactics in pricing strategies. It bridges gaming monetization research with broader consumer economics and financial psychology.
@@ -103,23 +105,35 @@ The detector is built on seminal work in behavioral economics:
 ## Installation
 
 ### Requirements
-- Python 3.7+
-- Flask 2.3+
+- Python and pip; the pinned dependencies and API tests were verified with Python 3.9.
+- A browser. The radar chart loads Chart.js from a CDN and needs network access.
 
 ### Setup
 
 ```bash
-# Clone or navigate to the project directory
+# From a new checkout; skip these two commands if already in the repository
+git clone https://github.com/TheCromazone/behavioral-bias-detector.git
 cd behavioral-bias-detector
 
-# Install dependencies
-pip install -r requirements.txt
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 
 # Run the Flask app
 python app.py
 ```
 
-The app will start on `http://localhost:5000`
+The app starts on `http://localhost:5000` with Flask's development server and debug mode. On Windows, activate with `.venv\Scripts\Activate.ps1` instead. If port 5000 is occupied, use `python -m flask --app app run --port 5001`.
+
+### Check the API
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The tests run in process without starting a server. They cover all five examples and malformed inputs. `/api/analyze` expects a JSON object with a string `pricing_text`; `/api/example` expects a string `example_name`. Invalid bodies return a JSON error with HTTP 400, and unknown example names return HTTP 404.
+
+Local environments, Python caches, and `.env` files are ignored by Git. The application does not persist analyses; save any research data separately.
 
 ## Usage
 
