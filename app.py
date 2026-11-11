@@ -1,1 +1,85 @@
-IiIiCkJlaGF2aW9yYWwgQmlhcyBEZXRlY3RvciAtIEZsYXNrIFdlYiBBcHBsaWNhdGlvbgpEZXRlY3RzIGJlaGF2aW9yYWwgZWNvbm9taWNzIGJpYXNlcyBpbiBhbnkgcHJvZHVjdCdzIHByaWNpbmcgc3RydWN0dXJlCiIiIgoKZnJvbSBmbGFzayBpbXBvcnQgRmxhc2ssIHJlbmRlcl90ZW1wbGF0ZSwgcmVxdWVzdCwganNvbmlmeQpmcm9tIGJpYXNfZGV0ZWN0b3IgaW1wb3J0IEJpYXNNYXRjaGVyLCBFWEFNUExFUwppbXBvcnQganNvbgoKYXBwID0gRmxhc2soX19uYW1lX18pCm1hdGNoZXIgPSBCaWFzTWF0Y2hlcigpCgoKQGFwcC5yb3V0ZSgiLyIpCmRlZiBpbmRleCgpOgogICAgIiIiUmVuZGVyIG1haW4gcGFnZSB3aXRoIGV4YW1wbGVzIiIiCiAgICByZXR1cm4gcmVuZGVyX3RlbXBsYXRlKCJpbmRleC5odG1sIiwgZXhhbXBsZXM9bGlzdChFWEFNUExFUy5rZXlzKCkpKQoKCkBhcHAucm91dGUoIi9hcGkvZXhhbXBsZXMiLCBtZXRob2RzPVsiR0VUIl0pCmRlZiBnZXRfZXhhbXBsZXMoKToKICAgICIiIlJldHVybiBhbGwgcHJlLWxvYWRlZCBleGFtcGxlcyIiIgogICAgcmV0dXJuIGpzb25pZnkoRVhBTVBMRVMpCgoKQGFwcC5yb3V0ZSgiL2FwaS9hbmFseXplIiwgbWV0aG9kcz1bIlBPU1QiXSkKZGVmIGFuYWx5emUoKToKICAgICIiIgogICAgQW5hbHl6ZSBwcmljaW5nIHN0cnVjdHVyZSBmb3IgYmVoYXZpb3JhbCBiaWFzZXMuCgogICAgRXhwZWN0ZWQgSlNPTjoKICAgIHsKICAgICAgICAicHJvZHVjdF9uYW1lIjogIlByb2R1Y3QgTmFtZSIsCiAgICAgICAgInByaWNpbmdfdGV4dCI6ICJEZXNjcmlwdGlvbiBvZiBwcmljaW5nLi4uIgogICAgfQogICAgIiIiCiAgICBkYXRhID0gcmVxdWVzdC5nZXRfanNvbigpCgogICAgaWYgbm90IGRhdGEgb3IgInByaWNpbmdfdGV4dCIgbm90IGluIGRhdGE6CiAgICAgICAgcmV0dXJuIGpzb25pZnkoeyJlcnJvciI6ICJNaXNzaW5nIHByaWNpbmdfdGV4dCJ9KSwgNDAwCgogICAgcHJvZHVjdF9uYW1lID0gZGF0YS5nZXQoInByb2R1Y3RfbmFtZSIsICJVbmtub3duIFByb2R1Y3QiKQogICAgcHJpY2luZ190ZXh0ID0gZGF0YS5nZXQoInByaWNpbmdfdGV4dCIsICIiKS5zdHJpcCgpCgogICAgaWYgbm90IHByaWNpbmdfdGV4dDoKICAgICAgICByZXR1cm4ganNvbmlmeSh7ImVycm9yIjogIlByaWNpbmcgdGV4dCBjYW5ub3QgYmUgZW1wdHkifSksIDQwMAoKICAgICMgQW5hbHl6ZSBwcmljaW5nCiAgICBiaWFzX3Njb3Jlcywgb3ZlcmFsbF9zY29yZSA9IG1hdGNoZXIuYW5hbHl6ZV9wcmljaW5nKHByaWNpbmdfdGV4dCkKCiAgICAjIEZvcm1hdCByZXNwb25zZQogICAgcmVzdWx0ID0gewogICAgICAgICJwcm9kdWN0X25hbWUiOiBwcm9kdWN0X25hbWUsCiAgICAgICAgIm92ZXJhbGxfc2NvcmUiOiByb3VuZChvdmVyYWxsX3Njb3JlLCAxKSwKICAgICAgICAic3VtbWFyeSI6IG1hdGNoZXIuZ2V0X3N1bW1hcnkob3ZlcmFsbF9zY29yZSksCiAgICAgICAgImJpYXNlcyI6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgIm5hbWUiOiBiaWFzLm5hbWUsCiAgICAgICAgICAgICAgICAic2NvcmUiOiByb3VuZChiaWFzLnNjb3JlLCAxKSwKICAgICAgICAgICAgICAgICJjb25maWRlbmNlIjogcm91bmQoYmlhcy5jb25maWRlbmNlLCAyKSwKICAgICAgICAgICAgICAgICJpbmRpY2F0b3JzIjogYmlhcy5pbmRpY2F0b3JzLAogICAgICAgICAgICAgICAgImV4cGxhbmF0aW9uIjogYmlhcy5leHBsYW5hdGlvbiwKICAgICAgICAgICAgfQogICAgICAgICAgICBmb3IgYmlhcyBpbiBiaWFzX3Njb3JlcwogICAgICAgIF0sCiAgICB9CgogICAgcmV0dXJuIGpzb25pZnkocmVzdWx0KQoKCkBhcHAucm91dGUoIi9hcGkvZXhhbXBsZSIsIG1ldGhvZHM9WyJQT1NUIl0pCmRlZiBsb2FkX2V4YW1wbGUoKToKICAgICIiIkxvYWQgYSBwcmUtZGVmaW5lZCBleGFtcGxlIiIiCiAgICBkYXRhID0gcmVxdWVzdC5nZXRfanNvbigpCiAgICBleGFtcGxlX25hbWUgPSBkYXRhLmdldCgiZXhhbXBsZV9uYW1lIikKCiAgICBpZiBleGFtcGxlX25hbWUgbm90IGluIEVYQU1QTEVTOgogICAgICAgIHJldHVybiBqc29uaWZ5KHsiZXJyb3IiOiBmIlVua25vd24gZXhhbXBsZToge2V4YW1wbGVfbmFtZX0ifSksIDQwNAoKICAgIGV4YW1wbGUgPSBFWEFNUExFU1tleGFtcGxlX25hbWVdCiAgICByZXR1cm4ganNvbmlmeShleGFtcGxlKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBhcHAucnVuKGRlYnVnPVRydWUsIHBvcnQ9NTAwMCkK
+"""
+Behavioral Bias Detector - Flask Web Application
+Detects behavioral economics biases in any product's pricing structure
+"""
+
+from flask import Flask, render_template, request, jsonify
+from bias_detector import BiasMatcher, EXAMPLES
+import json
+
+app = Flask(__name__)
+matcher = BiasMatcher()
+
+
+@app.route("/")
+def index():
+    """Render main page with examples"""
+    return render_template("index.html", examples=list(EXAMPLES.keys()))
+
+
+@app.route("/api/examples", methods=["GET"])
+def get_examples():
+    """Return all pre-loaded examples"""
+    return jsonify(EXAMPLES)
+
+
+@app.route("/api/analyze", methods=["POST"])
+def analyze():
+    """
+    Analyze pricing structure for behavioral biases.
+
+    Expected JSON:
+    {
+        "product_name": "Product Name",
+        "pricing_text": "Description of pricing..."
+    }
+    """
+    data = request.get_json()
+
+    if not data or "pricing_text" not in data:
+        return jsonify({"error": "Missing pricing_text"}), 400
+
+    product_name = data.get("product_name", "Unknown Product")
+    pricing_text = data.get("pricing_text", "").strip()
+
+    if not pricing_text:
+        return jsonify({"error": "Pricing text cannot be empty"}), 400
+
+    # Analyze pricing
+    bias_scores, overall_score = matcher.analyze_pricing(pricing_text)
+
+    # Format response
+    result = {
+        "product_name": product_name,
+        "overall_score": round(overall_score, 1),
+        "summary": matcher.get_summary(overall_score),
+        "biases": [
+            {
+                "name": bias.name,
+                "score": round(bias.score, 1),
+                "confidence": round(bias.confidence, 2),
+                "indicators": bias.indicators,
+                "explanation": bias.explanation,
+            }
+            for bias in bias_scores
+        ],
+    }
+
+    return jsonify(result)
+
+
+@app.route("/api/example", methods=["POST"])
+def load_example():
+    """Load a pre-defined example"""
+    data = request.get_json()
+    example_name = data.get("example_name")
+
+    if example_name not in EXAMPLES:
+        return jsonify({"error": f"Unknown example: {example_name}"}), 404
+
+    example = EXAMPLES[example_name]
+    return jsonify(example)
+
+
+if __name__ == "__main__":
+    app.run(debug=True, port=5000)

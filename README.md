@@ -1,1 +1,283 @@
-IyBCZWhhdmlvcmFsIEJpYXMgRGV0ZWN0b3IKCkEgd2ViIGFwcGxpY2F0aW9uIHRoYXQgYW5hbHl6ZXMgYW55IHByb2R1Y3QncyBwcmljaW5nIHN0cnVjdHVyZSB0byBpZGVudGlmeSBhbmQgc2NvcmUgYmVoYXZpb3JhbCBlY29ub21pY3MgYmlhc2VzIGl0IGV4cGxvaXRzLgoKIyMgT3ZlcnZpZXcKClRoaXMgdG9vbCBhcHBsaWVzIGZyYW1ld29ya3MgZnJvbSBiZWhhdmlvcmFsIGVjb25vbWljcyBhbmQgYmVoYXZpb3JhbCBmaW5hbmNlIHRvIGRldGVjdCBtYW5pcHVsYXRpb24gdGFjdGljcyBpbiBwcmljaW5nIHN0cmF0ZWdpZXMuIEl0IGJyaWRnZXMgZ2FtaW5nIG1vbmV0aXphdGlvbiByZXNlYXJjaCB3aXRoIGJyb2FkZXIgY29uc3VtZXIgZWNvbm9taWNzIGFuZCBmaW5hbmNpYWwgcHN5Y2hvbG9neS4KCioqUHVycG9zZToqKiBJZGVudGlmeSB3aGljaCBjb2duaXRpdmUgYmlhc2VzIGEgcHJpY2luZyBzdHJhdGVneSB0YXJnZXRzLCBzY29yZSB0aGUgbWFuaXB1bGF0aW9uIGludGVuc2l0eSAoMC0xMDApLCBhbmQgZXhwbGFpbiB0aGUgcHN5Y2hvbG9naWNhbCBtZWNoYW5pc21zIGF0IHdvcmsuCgoqKlVzZSBDYXNlczoqKgotIFByb2R1Y3QgbWFuYWdlcnMgZXZhbHVhdGluZyBwcmljaW5nIHBzeWNob2xvZ3kKLSBBbmFseXN0cyBhc3Nlc3NpbmcgZmFpciBwcmljaW5nIHZzLiBtYW5pcHVsYXRpb24KLSBSZXNlYXJjaGVycyBzdHVkeWluZyBiZWhhdmlvcmFsIGVjb25vbWljcyBpbiBwcmFjdGljZQotIFN0dWRlbnRzIGxlYXJuaW5nIGJlaGF2aW9yYWwgcHJpY2luZyB0YWN0aWNzCi0gUmVndWxhdG9ycyBldmFsdWF0aW5nIGNvbnN1bWVyIHByb3RlY3Rpb24gY29uY2VybnMKCiMjIFRoZW9yZXRpY2FsIEZvdW5kYXRpb24KCiMjIyBCZWhhdmlvcmFsIEVjb25vbWljcyBGcmFtZXdvcmsKClRoZSBkZXRlY3RvciBpcyBidWlsdCBvbiBzZW1pbmFsIHdvcmsgaW4gYmVoYXZpb3JhbCBlY29ub21pY3M6CgotICoqS2FobmVtYW4gJiBUdmVyc2t5ICgxOTc5KSAtIFByb3NwZWN0IFRoZW9yeSoqOiBGb3VuZGF0aW9uYWwgZnJhbWV3b3JrIHNob3dpbmcgaG93IHBlb3BsZSBtYWtlIGRlY2lzaW9ucyB1bmRlciByaXNrL3VuY2VydGFpbnR5LCB3aXRoIGVtcGhhc2lzIG9uIGxvc3MgYXZlcnNpb24gYW5kIHJlZmVyZW5jZSBwb2ludHMgKGFuY2hvcmluZykKLSAqKlRoYWxlciAoMTk4MCkgLSBNZW50YWwgQWNjb3VudGluZyoqOiBIb3cgY29uc3VtZXJzIG9yZ2FuaXplLCBjb2RlLCBhbmQgZXZhbHVhdGUgZmluYW5jaWFsIGFjdGl2aXRpZXMKLSAqKkFyaWVseSAoMjAwOCkgLSBQcmVkaWN0YWJseSBJcnJhdGlvbmFsKio6IEVtcGlyaWNhbCBkZW1vbnN0cmF0aW9ucyBvZiBzeXN0ZW1hdGljIGlycmF0aW9uYWxpdHkgaW4gZWNvbm9taWMgYmVoYXZpb3IKCiMjIyBCZWhhdmlvcmFsIEJpYXNlcyBEZXRlY3RlZAoKMS4gKipBbmNob3JpbmcgRWZmZWN0KioKICAgLSBJbml0aWFsIHByaWNlIHJlZmVyZW5jZSBpbmZsdWVuY2VzIHBlcmNlcHRpb24gb2YgdmFsdWUKICAgLSBNZWNoYW5pc206ICJTYXZlICQxMDAhIiBhbmNob3JzIHRvIG9yaWdpbmFsIHByaWNlLCBtYWtpbmcgZGlzY291bnQgc2VlbSBsYXJnZXIKICAgLSBFeGFtcGxlOiAiV2FzICQxOTkuOTksIG5vdyAkOTkuOTkiIGFuY2hvcnMgcGVyY2VwdGlvbiB0byAkMTk5CgoyLiAqKlN1bmsgQ29zdCBGYWxsYWN5KioKICAgLSBSZWN1cnJpbmcgY29zdHMgY3JlYXRlIHBzeWNob2xvZ2ljYWwgaW52ZXN0bWVudCBhbmQgbG9jay1pbgogICAtIE1lY2hhbmlzbTogTW9udGhseSBzdWJzY3JpcHRpb25zIGNyZWF0ZSBoYWJpdCBhbmQgc3dpdGNoaW5nIGNvc3RzCiAgIC0gRXhhbXBsZTogIk9ubHkgJDkuOTkvbW9udGgiIGZlZWxzIHNtYWxsIGJ1dCBjb21taXRzICQxMjAveWVhcgoKMy4gKipMb3NzIEF2ZXJzaW9uKioKICAgLSBGZWFyIG9mIG1pc3Npbmcgb3V0IG9yIGxvc2luZyB0aGUgb3Bwb3J0dW5pdHkgZHJpdmVzIHNwZW5kaW5nCiAgIC0gTWVjaGFuaXNtOiBGZWFyIG9mIGxvc3MgaXMgcHN5Y2hvbG9naWNhbGx5IDItM3ggc3Ryb25nZXIgdGhhbiBwbGVhc3VyZSBvZiBnYWluCiAgIC0gRXhhbXBsZTogIkxpbWl0ZWQgdGltZSBvZmZlciBlbmRzIHRvbmlnaHQiIHRyaWdnZXJzIHVyZ2VuY3kKCjQuICoqRk9NTyAmIFNjYXJjaXR5KioKICAgLSBBcnRpZmljaWFsIHNjYXJjaXR5IGNyZWF0ZXMgdXJnZW5jeSBhbmQgcGVyY2VpdmVkIHZhbHVlCiAgIC0gTWVjaGFuaXNtOiBMaW1pdGVkIHF1YW50aXR5IG9yIHRpbWUgaW5jcmVhc2VzIHBlcmNlaXZlZCB2YWx1ZQogICAtIEV4YW1wbGU6ICJPbmx5IDMgbGVmdCBpbiBzdG9jayIgb3IgIlNlYXNvbmFsIGl0ZW0sIGF2YWlsYWJsZSBPY3RvYmVyIG9ubHkiCgo1LiAqKkVuZG93bWVudCBFZmZlY3QqKgogICAtIEJ1bmRsZWQgaXRlbXMgZmVlbCBtb3JlIHZhbHVhYmxlIHRoYW4gdGhlIHN1bSBvZiBwYXJ0cwogICAtIE1lY2hhbmlzbTogT3duZXJzaGlwIGluY3JlYXNlcyBwZXJjZWl2ZWQgdmFsdWUgb2YgaXRlbXMKICAgLSBFeGFtcGxlOiAkNDkuOTkgYnVuZGxlIG9mIGl0ZW1zIHdvcnRoICQyMCBpbmRpdmlkdWFsbHkKCjYuICoqU3RhdHVzIFF1byBCaWFzKioKICAgLSBEZWZhdWx0IG9wdGlvbnMgYXR0cmFjdCBkaXNwcm9wb3J0aW9uYXRlIHNlbGVjdGlvbnMKICAgLSBNZWNoYW5pc206IEluZXJ0aWEgZmF2b3JzIGV4aXN0aW5nIHN0YXRlOyBzd2l0Y2hpbmcgcmVxdWlyZXMgZWZmb3J0CiAgIC0gRXhhbXBsZTogIlN0YW5kYXJkIFBsYW4iIHByZS1zZWxlY3RlZCBpbiB0aWVyIGNvbXBhcmlzb24KCjcuICoqU29jaWFsIFByb29mKioKICAgLSBPdGhlcnMnIGNob2ljZXMgdmFsaWRhdGUgcHVyY2hhc2VzCiAgIC0gTWVjaGFuaXNtOiBVbmNlcnRhaW50eSBkcml2ZXMgY29uZm9ybWl0eSB0byBncm91cCBiZWhhdmlvcgogICAtIEV4YW1wbGU6ICI14piFIGZyb20gNTAsMDAwIHJldmlld3MiIG9yICJNb3N0IFBvcHVsYXIiIGJhZGdlCgo4LiAqKkRlY295IFByaWNpbmcqKgogICAtIE1pZGRsZS1wcmljZWQgb3B0aW9uIG1ha2VzIGV4cGVuc2l2ZSBvcHRpb24gc2VlbSBiZXR0ZXIgdmFsdWUKICAgLSBNZWNoYW5pc206IEFzeW1tZXRyaWMgZG9taW5hbmNlIHByaW5jaXBsZQogICAtIEV4YW1wbGU6IEdvb2QgJDkuOTkgLyBCZXR0ZXIgJDE0Ljk5IC8gQmVzdCAkMTkuOTkgKEJlc3Qgc2VlbXMgbGlrZSBiZXN0IHZhbHVlKQoKOS4gKipEdWFsIEN1cnJlbmN5IE9iZnVzY2F0aW9uKioKICAgLSBBYnN0cmFjdCBjdXJyZW5jeSAoY29pbnMsIGdlbXMsIFYtQnVja3MpIG9ic2N1cmVzIHRydWUgc3BlbmRpbmcKICAgLSBNZWNoYW5pc206IFBzeWNob2xvZ2ljYWwgZGlzdGFuY2UgcmVkdWNlcyBwYWluIG9mIHBheW1lbnQKICAgLSBFeGFtcGxlOiAxMDAwIFYtQnVja3Mgc2VlbXMgYXJiaXRyYXJ5OyAkOS45OSBpcyBjbGVhcmVyCiAgIC0gRmluYW5jZSBwYXJhbGxlbDogQ3JlZGl0IGNhcmRzIHJlZHVjZSBwYWluIHZzLiBjYXNoCgoxMC4gKipBcnRpZmljaWFsIFNjYXJjaXR5KioKICAgIC0gVGltZS9xdWFudGl0eSBsaW1pdHMgZHJpdmUgdXJnZW5jeSBhbmQgc3BlbmRpbmcKICAgIC0gTWVjaGFuaXNtOiBDb21iaW5lcyBzY2FyY2l0eSArIGxvc3MgYXZlcnNpb24gKyBlbmRvd21lbnQKICAgIC0gRXhhbXBsZTogIkJhdHRsZSBQYXNzIGV4cGlyZXMgRGVjZW1iZXIgMzEiICsgIkV4Y2x1c2l2ZSBjb3NtZXRpY3MgbmV2ZXIgcmV0dXJuIgoKIyMgRmVhdHVyZXMKCiMjIyBXZWIgSW50ZXJmYWNlCi0gKipJbnB1dCBGb3JtKio6IEVudGVyIGFueSBwcm9kdWN0L3NlcnZpY2UgYW5kIGRlc2NyaWJlIGl0cyBwcmljaW5nIHN0cnVjdHVyZQotICoqUHJlLWxvYWRlZCBFeGFtcGxlcyoqOiBGb3J0bml0ZSBCYXR0bGUgUGFzcywgRklGQSBVbHRpbWF0ZSBUZWFtLCBOZXRmbGl4LCBBbWF6b24gUHJpbWUsIENvZmZlZSBzdWJzY3JpcHRpb24KLSAqKkludGVyYWN0aXZlIEFuYWx5c2lzKio6IFJlYWwtdGltZSBiaWFzIGRldGVjdGlvbiB3aXRoIGNvbmZpZGVuY2Ugc2NvcmVzCi0gKipWaXN1YWwgSGVhdG1hcCoqOiBSYWRhciBjaGFydCBzaG93aW5nIHdoaWNoIGJpYXNlcyBhcmUgbW9zdCBwcmVzZW50Ci0gKipEZXRhaWxlZCBFeHBsYW5hdGlvbnMqKjogRWFjaCBkZXRlY3RlZCBiaWFzIGluY2x1ZGVzIGV4cGxhbmF0aW9uIGFuZCBzdXBwb3J0aW5nIGluZGljYXRvcnMKCiMjIyBEZXRlY3Rpb24gRW5naW5lCi0gKipLZXl3b3JkIFBhdHRlcm4gTWF0Y2hpbmcqKjogSWRlbnRpZmllcyBiaWFzLWluZGljYXRpdmUgbGFuZ3VhZ2UKLSAqKlJlZ2V4IFBhdHRlcm4gUmVjb2duaXRpb24qKjogRGV0ZWN0cyBwcmljaW5nIHN0cnVjdHVyZXMgYW5kIHByb21vdGlvbmFsIGxhbmd1YWdlCi0gKipDb25maWRlbmNlIFNjb3JpbmcqKjogV2VpZ2h0cyByZXN1bHRzIGJ5IG51bWJlciBhbmQgcXVhbGl0eSBvZiBpbmRpY2F0b3JzCi0gKipNYW5pcHVsYXRpb24gU2NvcmUqKjogMC0xMDAgb3ZlcmFsbCByYXRpbmcgd2l0aCBpbnRlcnByZXRhdGlvbiBndWlkZQoKIyMjIE91dHB1dAotICoqUGVyLUJpYXMgU2NvcmluZyoqOiAwLTEwMCBzY29yZSBmb3IgZWFjaCBvZiAxMCBiaWFzZXMKLSAqKkNvbmZpZGVuY2UgTGV2ZWxzKio6IDAtMTAwJSBjb25maWRlbmNlIGluIGVhY2ggZGV0ZWN0aW9uCi0gKipTdXBwb3J0aW5nIEluZGljYXRvcnMqKjogQWN0dWFsIGtleXdvcmRzL3BhdHRlcm5zIG1hdGNoZWQKLSAqKkJpYXMgRXhwbGFuYXRpb25zKio6IEdyb3VuZGVkIGluIGJlaGF2aW9yYWwgZWNvbm9taWNzIHJlc2VhcmNoCi0gKipPdmVyYWxsIE1hbmlwdWxhdGlvbiBTdW1tYXJ5Kio6ICJMb3ciIHRocm91Z2ggIkV4dHJlbWUiIHJhdGluZyB3aXRoIGludGVycHJldGF0aW9uCgojIyBJbnN0YWxsYXRpb24KCiMjIyBSZXF1aXJlbWVudHMKLSBQeXRob24gMy43KwotIEZsYXNrIDIuMysKCiMjIyBTZXR1cAoKYGBgYmFzaAojIENsb25lIG9yIG5hdmlnYXRlIHRvIHRoZSBwcm9qZWN0IGRpcmVjdG9yeQpjZCBiZWhhdmlvcmFsLWJpYXMtZGV0ZWN0b3IKCiMgSW5zdGFsbCBkZXBlbmRlbmNpZXMKcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dAoKIyBSdW4gdGhlIEZsYXNrIGFwcApweXRob24gYXBwLnB5CmBgYAoKVGhlIGFwcCB3aWxsIHN0YXJ0IG9uIGBodHRwOi8vbG9jYWxob3N0OjUwMDBgCgojIyBVc2FnZQoKIyMjIFdlYiBJbnRlcmZhY2UKCjEuICoqRW50ZXIgUHJvZHVjdCBEZXRhaWxzKioKICAgLSBQcm9kdWN0L1NlcnZpY2UgTmFtZSAoZS5nLiwgIkZvcnRuaXRlIEJhdHRsZSBQYXNzIikKICAgLSBQcmljaW5nIFN0cnVjdHVyZSAoZGVzY3JpYmUgdGllcnMsIGN1cnJlbmNpZXMsIHByb21vdGlvbnMsIGV0Yy4pCgoyLiAqKkFuYWx5emUqKgogICAtIENsaWNrICJBbmFseXplIGZvciBCaWFzZXMiCiAgIC0gUmV2aWV3IG92ZXJhbGwgTWFuaXB1bGF0aW9uIFNjb3JlICgwLTEwMCkKICAgLSBFeGFtaW5lIHJhZGFyIGNoYXJ0IHNob3dpbmcgd2hpY2ggYmlhc2VzIGFyZSBwcmVzZW50CgozLiAqKkludGVycHJldCBSZXN1bHRzKioKICAgLSBFYWNoIGJpYXMgc2hvd3Mgc2NvcmUsIGNvbmZpZGVuY2UsIGluZGljYXRvcnMKICAgLSBSZWFkIGV4cGxhbmF0aW9ucyBmb3IgYmVoYXZpb3JhbCBtZWNoYW5pc21zCiAgIC0gVXNlIGZpbmRpbmdzIHRvIGV2YWx1YXRlIHByaWNpbmcgZmFpcm5lc3MKCiMjIyBQcmUtbG9hZGVkIEV4YW1wbGVzCgpDbGljayBhbnkgZXhhbXBsZSBidXR0b24gdG8gYXV0by1maWxsIGFuZCBhbmFseXplOgotICoqRm9ydG5pdGUgQmF0dGxlIFBhc3MqKjogR2FtaW5nIHdpdGggVi1CdWNrcywgc2Vhc29uYWwgZXhjbHVzaXZlcwotICoqRklGQSBVbHRpbWF0ZSBUZWFtKio6IExvb3QgYm94ZXMsIHJhcmUgY2FyZHMsIHRyYWRpbmcgbWFya2V0Ci0gKipOZXRmbGl4Kio6IFN1YnNjcmlwdGlvbiB0aWVycywgIk1vc3QgUG9wdWxhciIgYW5jaG9yaW5nCi0gKipBbWF6b24gUHJpbWUqKjogQW5udWFsL21vbnRobHkgdG9nZ2xlLCBidW5kbGVkIGJlbmVmaXRzCi0gKipDb2ZmZWUgU3Vic2NyaXB0aW9uKio6IExveWFsdHkgcHJvZ3JhbSwgbGltaXRlZC10aW1lIGRyaW5rcwoKIyMgQXJjaGl0ZWN0dXJlCgojIyMgQ29yZSBDb21wb25lbnRzCgoqKmBiaWFzX2RldGVjdG9yLnB5YCoqIC0gRGV0ZWN0aW9uIEVuZ2luZQotIGBCaWFzTWF0Y2hlcmAgY2xhc3M6IEFuYWx5emVzIHRleHQgZm9yIGJpYXMgcGF0dGVybnMKLSBgQmlhc1Njb3JlYCBkYXRhY2xhc3M6IFN0cnVjdHVyZWQgZGV0ZWN0aW9uIHJlc3VsdHMKLSBLZXl3b3JkIHBhdHRlcm5zIGFuZCByZWdleCBmb3IgZWFjaCBiaWFzIHR5cGUKLSBgYW5hbHl6ZV9wcmljaW5nKClgOiBNYWluIGFuYWx5c2lzIG1ldGhvZAotIFByZS1sb2FkZWQgZXhhbXBsZSBkYXRhCgoqKmBhcHAucHlgKiogLSBGbGFzayBCYWNrZW5kCi0gYC9gIC0gTWFpbiBwYWdlIHdpdGggZXhhbXBsZXMKLSBgL2FwaS9hbmFseXplYCAtIFBPU1QgZW5kcG9pbnQgZm9yIGJpYXMgYW5hbHlzaXMKLSBgL2FwaS9leGFtcGxlYCAtIExvYWQgcHJlLWNvbmZpZ3VyZWQgZXhhbXBsZXMKLSBgL2FwaS9leGFtcGxlc2AgLSBMaXN0IGFsbCBleGFtcGxlcwoKKipgdGVtcGxhdGVzL2luZGV4Lmh0bWxgKiogLSBJbnRlcmFjdGl2ZSBGcm9udGVuZAotIEZvcm0gaW5wdXQgZm9yIHByaWNpbmcgc3RydWN0dXJlCi0gRXhhbXBsZSBzZWxlY3Rpb24KLSBSZXN1bHRzIGRpc3BsYXkgd2l0aCByYWRhciBjaGFydAotIERldGFpbGVkIGJpYXMgYnJlYWtkb3duCi0gUmVzcG9uc2l2ZSBtb2JpbGUgZGVzaWduCgoqKmBzdGF0aWMvc3R5bGUuY3NzYCoqIC0gUHJvZmVzc2lvbmFsIFN0eWxpbmcKLSBNb2Rlcm4gZ3JhZGllbnQgZGVzaWduCi0gQ29sb3ItY29kZWQgYmlhcyBzZXZlcml0eQotIFJlc3BvbnNpdmUgZ3JpZCBsYXlvdXQKLSBBY2Nlc3NpYmxlIHR5cG9ncmFwaHkKCiMjIEV4YW1wbGUgQW5hbHlzZXMKCiMjIyBGb3J0bml0ZSBCYXR0bGUgUGFzcwpgYGAKT3ZlcmFsbCBNYW5pcHVsYXRpb24gU2NvcmU6IDc4LzEwMCAoIlZlcnkgSGlnaCIpCgpUb3AgQmlhc2VzIERldGVjdGVkOgotIEZPTU8gJiBTY2FyY2l0eTogOTIvMTAwIChleGNsdXNpdmUgc2Vhc29uYWwgY29zbWV0aWNzIG5ldmVyIHJldHVybikKLSBTdW5rIENvc3QgRmFsbGFjeTogODUvMTAwIChtb250aGx5IHBhc3MgY29tbWl0bWVudCkKLSBEdWFsIEN1cnJlbmN5OiA4MC8xMDAgKFYtQnVja3Mgb2JzY3VyZSBVU0Qgc3BlbmRpbmcpCi0gQXJ0aWZpY2lhbCBTY2FyY2l0eTogNzUvMTAwIChiYXR0bGUgcGFzcyBleHBpcmVzKQotIEFuY2hvcmluZzogNjAvMTAwIChzZWFzb25hbCBwcmljaW5nIGNvbnNpc3RlbmN5KQpgYGAKCiMjIyBOZXRmbGl4CmBgYApPdmVyYWxsIE1hbmlwdWxhdGlvbiBTY29yZTogNTIvMTAwICgiSGlnaCIpCgpUb3AgQmlhc2VzIERldGVjdGVkOgotIFN0YXR1cyBRdW8gQmlhczogNzIvMTAwICgiU3RhbmRhcmQiIHByZS1zZWxlY3RlZCwgbW9zdCBwb3B1bGFyKQotIFN1bmsgQ29zdCBGYWxsYWN5OiA2OC8xMDAgKG1vbnRobHkgYXV0by1yZW5ld2FsKQotIEVuZG93bWVudCBFZmZlY3Q6IDU1LzEwMCAoYnVuZGxlIGNvbWJpbmVzIHZpZGVvLCBtdXNpYywgYWRzKQotIFNvY2lhbCBQcm9vZjogNDgvMTAwIChjb21tdW5pdHkgb2YgdXNlcnMsIHNoYXJlZCBzaG93cykKYGBgCgojIyBEZXRlY3Rpb24gTG9naWMKClRoZSBkZXRlY3RvciB1c2VzIGEgc2NvcmluZyBzeXN0ZW0gY29tYmluaW5nIG11bHRpcGxlIHNpZ25hbHM6CgoxLiAqKktleXdvcmQgTWF0Y2hpbmcqKiAoMC01MCBwb2ludHMpCiAgIC0gRWFjaCBiaWFzLWluZGljYXRpdmUga2V5d29yZCBhZGRzIDggcG9pbnRzCiAgIC0gQ2FwcGVkIGF0IDUwIHRvIHJlcXVpcmUgcGF0dGVybiBjb25maXJtYXRpb24KCjIuICoqUmVnZXggUGF0dGVybiBNYXRjaGluZyoqICgrMTUgcG9pbnRzIGVhY2gpCiAgIC0gQ29tcGxleCBwYXR0ZXJucyAocHJpY2UgcmFuZ2VzLCBkaXNjb3VudCBsYW5ndWFnZSkgYWRkIDE1IHBvaW50cwogICAtIE11bHRpcGxlIHBhdHRlcm5zIGNvbXBvdW5kIGV2aWRlbmNlCgozLiAqKkNvbmZpZGVuY2UgQ2FsY3VsYXRpb24qKiAoMC0xLjApCiAgIC0gQmFzZWQgb24gbnVtYmVyIG9mIHVuaXF1ZSBpbmRpY2F0b3JzCiAgIC0gNSsgaW5kaWNhdG9ycyA9IDEwMCUgY29uZmlkZW5jZQogICAtIFNhdHVyYXRlcyBhdCA1IHRvIHByZXZlbnQgb3Zlci1jb25maWRlbmNlCgo0LiAqKk92ZXJhbGwgU2NvcmUqKiAoMC0xMDApCiAgIC0gV2VpZ2h0ZWQgYXZlcmFnZSBvZiBhbGwgMTAgYmlhcyBzY29yZXMKICAgLSBXZWlnaHRlZCBieSBwZXItYmlhcyBjb25maWRlbmNlCiAgIC0gUmVzdWx0cyBpbnRlcnByZXRlZCBpbnRvIHN1bW1hcnkgY2F0ZWdvcmllcwoKIyMgUG9ydGZvbGlvIFZhbHVlCgojIyMgRm9yIFF1YW50aXRhdGl2ZSBBbmFseXN0IC8gRmluYW5jZSBSb2xlcwoKKipEZW1vbnN0cmF0ZXM6KioKLSBVbmRlcnN0YW5kaW5nIG9mIGJlaGF2aW9yYWwgZmluYW5jZSBhbmQgbWFya2V0IHBzeWNob2xvZ3kKLSBBYmlsaXR5IHRvIG9wZXJhdGlvbmFsaXplIGVjb25vbWljIHRoZW9yeSBpbnRvIHNjb3Jpbmcgc3lzdGVtcwotIE5hdHVyYWwgbGFuZ3VhZ2UgcHJvY2Vzc2luZyBhbmQgcGF0dGVybiByZWNvZ25pdGlvbgotIFByaWNpbmcgc3RyYXRlZ3kgYW5hbHlzaXMKLSBSaXNrL21hbmlwdWxhdGlvbiBxdWFudGlmaWNhdGlvbgoKKipSZXNlYXJjaCBGb3VuZGF0aW9uOioqCi0gQmFzZWQgb24gdGhlc2lzIHJlc2VhcmNoOiAiVGhlIFRyYW5zaXRpb24gZnJvbSBMb290IEJveGVzIHRvIEJhdHRsZSBQYXNzZXMgaW4gVmlkZW8gR2FtZXMiIChNYXR0aGV3IENyb21heiwgUmVlZCBDb2xsZWdlIDIwMjMpCi0gQXBwbGllcyBLYWhuZW1hbiAmIFR2ZXJza3kgcHJvc3BlY3QgdGhlb3J5IHRvIHJlYWwgcHJvZHVjdHMKLSBCcmlkZ2VzIGdhbWluZyBtb25ldGl6YXRpb24gd2l0aCBjb25zdW1lciBmaW5hbmNlCgoqKkFwcGxpY2F0aW9uIHRvIEZpbmFuY2U6KioKLSBTdG9jayBvcHRpb24gcHJpY2luZyBleHBsb2l0cyBhbmNob3JpbmcgKGV4ZXJjaXNlIHByaWNlcykKLSBNdXR1YWwgZnVuZCBmZWUgc3RydWN0dXJlcyBleHBsb2l0IGluYXR0ZW50aW9uIGFuZCBzdGF0dXMgcXVvCi0gQ3JlZGl0IGNhcmQgcHJvbW90aW9ucyBleHBsb2l0IGxvc3MgYXZlcnNpb24gYW5kIHNjYXJjaXR5Ci0gSW5zdXJhbmNlIHByaWNpbmcgbGV2ZXJhZ2VzIG1lbnRhbCBhY2NvdW50aW5nCi0gUmV0aXJlbWVudCBwbGFuIGRlc2lnbiBleHBsb2l0cyBzdGF0dXMgcXVvIGJpYXMKCiMjIyBGb3IgUHJvZHVjdCBNYW5hZ2VtZW50IC8gR3Jvd3RoIFJvbGVzCgoqKkRlbW9uc3RyYXRlczoqKgotIERlZXAgdW5kZXJzdGFuZGluZyBvZiBiZWhhdmlvcmFsIHByaWNpbmcgcHN5Y2hvbG9neQotIEFiaWxpdHkgdG8gaWRlbnRpZnkgYW5kIHF1YW50aWZ5IG1hbmlwdWxhdGlvbiBpbiBjb21wZXRpdG9yIHByb2R1Y3RzCi0gRnJhbWV3b3JrIGZvciBldGhpY2FsIHByaWNpbmcgc3RyYXRlZ3kgZGVzaWduCi0gQ29uc3VtZXIgcHN5Y2hvbG9neSBhbmQgYmVoYXZpb3JhbCBzY2llbmNlIGFwcGxpY2F0aW9uCi0gRGF0YS1kcml2ZW4gcHJvZHVjdCBhbmFseXNpcwoKIyMgUmVmZXJlbmNlcwoKKipGb3VuZGF0aW9uYWwgVGhlb3J5OioqCi0gS2FobmVtYW4sIEQuLCAmIFR2ZXJza3ksIEEuICgxOTc5KS4gIlByb3NwZWN0IFRoZW9yeTogQW4gQW5hbHlzaXMgb2YgRGVjaXNpb24gdW5kZXIgUmlzayIgLSAqRWNvbm9tZXRyaWNhKgotIFR2ZXJza3ksIEEuLCAmIEthaG5lbWFuLCBELiAoMTk4NSkuICJUaGUgRnJhbWluZyBvZiBEZWNpc2lvbnMgYW5kIHRoZSBQc3ljaG9sb2d5IG9mIENob2ljZSIKLSBUaGFsZXIsIFIuIEguICgxOTg1KS4gIk1lbnRhbCBBY2NvdW50aW5nIGFuZCBDb25zdW1lciBDaG9pY2UiCgoqKkJlaGF2aW9yYWwgUHJpY2luZzoqKgotIEFyaWVseSwgRC4gKDIwMDgpLiAqUHJlZGljdGFibHkgSXJyYXRpb25hbDogVGhlIEhpZGRlbiBGb3JjZXMgVGhhdCBTaGFwZSBPdXIgRGVjaXNpb25zKgotIFBvdW5kc3RvbmUsIFcuICgyMDEwKS4gKlByaWNlbGVzczogVGhlIE15dGggb2YgRmFpciBWYWx1ZSAoYW5kIEhvdyB0byBUYWtlIEFkdmFudGFnZSBvZiBJdCkqCi0gQ2lhbGRpbmksIFIuICgxOTg0KS4gKkluZmx1ZW5jZTogVGhlIFBzeWNob2xvZ3kgb2YgUGVyc3Vhc2lvbioKCioqR2FtZSBNb25ldGl6YXRpb246KioKLSBTZWlmIEVsLU5hc3IsIE0uLCBldCBhbC4gKDIwMTUpLiAiRW5nYWdlbWVudCBpbiBHYW1lczogRGV2ZWxvcGluZyBFbmdhZ2VtZW50IFN0cmF0ZWdpZXMgZm9yIGEgRGlnaXRhbCBHYW1lIgotIFplbmRsZSwgRC4sIGV0IGFsLiAoMjAyMCkuICJMb290IEJveGVzIEFyZSBQc3ljaG9sb2dpY2FsbHkgQWtpbiB0byBHYW1ibGluZyIgLSAqUm95YWwgU29jaWV0eSBPcGVuIFNjaWVuY2UqCgojIyBMaWNlbnNlCgpFZHVjYXRpb25hbCBhbmQgcmVzZWFyY2ggdXNlLiBDcmVhdGVkIGFzIHBvcnRmb2xpbyBwaWVjZSBkZW1vbnN0cmF0aW5nIGJlaGF2aW9yYWwgZWNvbm9taWNzIGFwcGxpY2F0aW9uLgoKIyMgQXV0aG9yCgpDcmVhdGVkIGJ5IE1hdHRoZXcgQ3JvbWF6CkJhc2VkIG9uIGJlaGF2aW9yYWwgZWNvbm9taWNzIHJlc2VhcmNoIGFuZCB0aGVzaXMgd29yayBvbiBnYW1lIG1vbmV0aXphdGlvbiBzdHJhdGVnaWVzLgo=
+# Behavioral Bias Detector
+
+A web application that analyzes any product's pricing structure to identify and score behavioral economics biases it exploits.
+
+## Overview
+
+This tool applies frameworks from behavioral economics and behavioral finance to detect manipulation tactics in pricing strategies. It bridges gaming monetization research with broader consumer economics and financial psychology.
+
+**Purpose:** Identify which cognitive biases a pricing strategy targets, score the manipulation intensity (0-100), and explain the psychological mechanisms at work.
+
+**Use Cases:**
+- Product managers evaluating pricing psychology
+- Analysts assessing fair pricing vs. manipulation
+- Researchers studying behavioral economics in practice
+- Students learning behavioral pricing tactics
+- Regulators evaluating consumer protection concerns
+
+## Theoretical Foundation
+
+### Behavioral Economics Framework
+
+The detector is built on seminal work in behavioral economics:
+
+- **Kahneman & Tversky (1979) - Prospect Theory**: Foundational framework showing how people make decisions under risk/uncertainty, with emphasis on loss aversion and reference points (anchoring)
+- **Thaler (1980) - Mental Accounting**: How consumers organize, code, and evaluate financial activities
+- **Ariely (2008) - Predictably Irrational**: Empirical demonstrations of systematic irrationality in economic behavior
+
+### Behavioral Biases Detected
+
+1. **Anchoring Effect**
+   - Initial price reference influences perception of value
+   - Mechanism: "Save $100!" anchors to original price, making discount seem larger
+   - Example: "Was $199.99, now $99.99" anchors perception to $199
+
+2. **Sunk Cost Fallacy**
+   - Recurring costs create psychological investment and lock-in
+   - Mechanism: Monthly subscriptions create habit and switching costs
+   - Example: "Only $9.99/month" feels small but commits $120/year
+
+3. **Loss Aversion**
+   - Fear of missing out or losing the opportunity drives spending
+   - Mechanism: Fear of loss is psychologically 2-3x stronger than pleasure of gain
+   - Example: "Limited time offer ends tonight" triggers urgency
+
+4. **FOMO & Scarcity**
+   - Artificial scarcity creates urgency and perceived value
+   - Mechanism: Limited quantity or time increases perceived value
+   - Example: "Only 3 left in stock" or "Seasonal item, available October only"
+
+5. **Endowment Effect**
+   - Bundled items feel more valuable than the sum of parts
+   - Mechanism: Ownership increases perceived value of items
+   - Example: $49.99 bundle of items worth $20 individually
+
+6. **Status Quo Bias**
+   - Default options attract disproportionate selections
+   - Mechanism: Inertia favors existing state; switching requires effort
+   - Example: "Standard Plan" pre-selected in tier comparison
+
+7. **Social Proof**
+   - Others' choices validate purchases
+   - Mechanism: Uncertainty drives conformity to group behavior
+   - Example: "5★ from 50,000 reviews" or "Most Popular" badge
+
+8. **Decoy Pricing**
+   - Middle-priced option makes expensive option seem better value
+   - Mechanism: Asymmetric dominance principle
+   - Example: Good $9.99 / Better $14.99 / Best $19.99 (Best seems like best value)
+
+9. **Dual Currency Obfuscation**
+   - Abstract currency (coins, gems, V-Bucks) obscures true spending
+   - Mechanism: Psychological distance reduces pain of payment
+   - Example: 1000 V-Bucks seems arbitrary; $9.99 is clearer
+   - Finance parallel: Credit cards reduce pain vs. cash
+
+10. **Artificial Scarcity**
+    - Time/quantity limits drive urgency and spending
+    - Mechanism: Combines scarcity + loss aversion + endowment
+    - Example: "Battle Pass expires December 31" + "Exclusive cosmetics never return"
+
+## Features
+
+### Web Interface
+- **Input Form**: Enter any product/service and describe its pricing structure
+- **Pre-loaded Examples**: Fortnite Battle Pass, FIFA Ultimate Team, Netflix, Amazon Prime, Coffee subscription
+- **Interactive Analysis**: Real-time bias detection with confidence scores
+- **Visual Heatmap**: Radar chart showing which biases are most present
+- **Detailed Explanations**: Each detected bias includes explanation and supporting indicators
+
+### Detection Engine
+- **Keyword Pattern Matching**: Identifies bias-indicative language
+- **Regex Pattern Recognition**: Detects pricing structures and promotional language
+- **Confidence Scoring**: Weights results by number and quality of indicators
+- **Manipulation Score**: 0-100 overall rating with interpretation guide
+
+### Output
+- **Per-Bias Scoring**: 0-100 score for each of 10 biases
+- **Confidence Levels**: 0-100% confidence in each detection
+- **Supporting Indicators**: Actual keywords/patterns matched
+- **Bias Explanations**: Grounded in behavioral economics research
+- **Overall Manipulation Summary**: "Low" through "Extreme" rating with interpretation
+
+## Installation
+
+### Requirements
+- Python 3.7+
+- Flask 2.3+
+
+### Setup
+
+```bash
+# Clone or navigate to the project directory
+cd behavioral-bias-detector
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Flask app
+python app.py
+```
+
+The app will start on `http://localhost:5000`
+
+## Usage
+
+### Web Interface
+
+1. **Enter Product Details**
+   - Product/Service Name (e.g., "Fortnite Battle Pass")
+   - Pricing Structure (describe tiers, currencies, promotions, etc.)
+
+2. **Analyze**
+   - Click "Analyze for Biases"
+   - Review overall Manipulation Score (0-100)
+   - Examine radar chart showing which biases are present
+
+3. **Interpret Results**
+   - Each bias shows score, confidence, indicators
+   - Read explanations for behavioral mechanisms
+   - Use findings to evaluate pricing fairness
+
+### Pre-loaded Examples
+
+Click any example button to auto-fill and analyze:
+- **Fortnite Battle Pass**: Gaming with V-Bucks, seasonal exclusives
+- **FIFA Ultimate Team**: Loot boxes, rare cards, trading market
+- **Netflix**: Subscription tiers, "Most Popular" anchoring
+- **Amazon Prime**: Annual/monthly toggle, bundled benefits
+- **Coffee Subscription**: Loyalty program, limited-time drinks
+
+## Architecture
+
+### Core Components
+
+**`bias_detector.py`** - Detection Engine
+- `BiasMatcher` class: Analyzes text for bias patterns
+- `BiasScore` dataclass: Structured detection results
+- Keyword patterns and regex for each bias type
+- `analyze_pricing()`: Main analysis method
+- Pre-loaded example data
+
+**`app.py`** - Flask Backend
+- `/` - Main page with examples
+- `/api/analyze` - POST endpoint for bias analysis
+- `/api/example` - Load pre-configured examples
+- `/api/examples` - List all examples
+
+**`templates/index.html`** - Interactive Frontend
+- Form input for pricing structure
+- Example selection
+- Results display with radar chart
+- Detailed bias breakdown
+- Responsive mobile design
+
+**`static/style.css`** - Professional Styling
+- Modern gradient design
+- Color-coded bias severity
+- Responsive grid layout
+- Accessible typography
+
+## Example Analyses
+
+### Fortnite Battle Pass
+```
+Overall Manipulation Score: 78/100 ("Very High")
+
+Top Biases Detected:
+- FOMO & Scarcity: 92/100 (exclusive seasonal cosmetics never return)
+- Sunk Cost Fallacy: 85/100 (monthly pass commitment)
+- Dual Currency: 80/100 (V-Bucks obscure USD spending)
+- Artificial Scarcity: 75/100 (battle pass expires)
+- Anchoring: 60/100 (seasonal pricing consistency)
+```
+
+### Netflix
+```
+Overall Manipulation Score: 52/100 ("High")
+
+Top Biases Detected:
+- Status Quo Bias: 72/100 ("Standard" pre-selected, most popular)
+- Sunk Cost Fallacy: 68/100 (monthly auto-renewal)
+- Endowment Effect: 55/100 (bundle combines video, music, ads)
+- Social Proof: 48/100 (community of users, shared shows)
+```
+
+## Detection Logic
+
+The detector uses a scoring system combining multiple signals:
+
+1. **Keyword Matching** (0-50 points)
+   - Each bias-indicative keyword adds 8 points
+   - Capped at 50 to require pattern confirmation
+
+2. **Regex Pattern Matching** (+15 points each)
+   - Complex patterns (price ranges, discount language) add 15 points
+   - Multiple patterns compound evidence
+
+3. **Confidence Calculation** (0-1.0)
+   - Based on number of unique indicators
+   - 5+ indicators = 100% confidence
+   - Saturates at 5 to prevent over-confidence
+
+4. **Overall Score** (0-100)
+   - Weighted average of all 10 bias scores
+   - Weighted by per-bias confidence
+   - Results interpreted into summary categories
+
+## Portfolio Value
+
+### For Quantitative Analyst / Finance Roles
+
+**Demonstrates:**
+- Understanding of behavioral finance and market psychology
+- Ability to operationalize economic theory into scoring systems
+- Natural language processing and pattern recognition
+- Pricing strategy analysis
+- Risk/manipulation quantification
+
+**Research Foundation:**
+- Based on thesis research: "The Transition from Loot Boxes to Battle Passes in Video Games" (Matthew Cromaz, Reed College 2023)
+- Applies Kahneman & Tversky prospect theory to real products
+- Bridges gaming monetization with consumer finance
+
+**Application to Finance:**
+- Stock option pricing exploits anchoring (exercise prices)
+- Mutual fund fee structures exploit inattention and status quo
+- Credit card promotions exploit loss aversion and scarcity
+- Insurance pricing leverages mental accounting
+- Retirement plan design exploits status quo bias
+
+### For Product Management / Growth Roles
+
+**Demonstrates:**
+- Deep understanding of behavioral pricing psychology
+- Ability to identify and quantify manipulation in competitor products
+- Framework for ethical pricing strategy design
+- Consumer psychology and behavioral science application
+- Data-driven product analysis
+
+## References
+
+**Foundational Theory:**
+- Kahneman, D., & Tversky, A. (1979). "Prospect Theory: An Analysis of Decision under Risk" - *Econometrica*
+- Tversky, A., & Kahneman, D. (1985). "The Framing of Decisions and the Psychology of Choice"
+- Thaler, R. H. (1985). "Mental Accounting and Consumer Choice"
+
+**Behavioral Pricing:**
+- Ariely, D. (2008). *Predictably Irrational: The Hidden Forces That Shape Our Decisions*
+- Poundstone, W. (2010). *Priceless: The Myth of Fair Value (and How to Take Advantage of It)*
+- Cialdini, R. (1984). *Influence: The Psychology of Persuasion*
+
+**Game Monetization:**
+- Seif El-Nasr, M., et al. (2015). "Engagement in Games: Developing Engagement Strategies for a Digital Game"
+- Zendle, D., et al. (2020). "Loot Boxes Are Psychologically Akin to Gambling" - *Royal Society Open Science*
+
+## License
+
+Educational and research use. Created as portfolio piece demonstrating behavioral economics application.
+
+## Author
+
+Created by Matthew Cromaz
+Based on behavioral economics research and thesis work on game monetization strategies.

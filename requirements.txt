@@ -1,1 +1,2 @@
-Rmxhc2s9PTIuMy4yCldlcmt6ZXVnPT0yLjMuNgo=
+Flask==2.3.2
+Werkzeug==2.3.6

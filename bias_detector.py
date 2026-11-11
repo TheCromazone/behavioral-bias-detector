@@ -1,1 +1,349 @@
-IiIiCkJlaGF2aW9yYWwgQmlhcyBEZXRlY3RvciAtIENvcmUgTG9naWMKQW5hbHl6ZXMgcHJpY2luZyBzdHJ1Y3R1cmVzIGFnYWluc3QgYmVoYXZpb3JhbCBlY29ub21pY3MgZnJhbWV3b3JrcwpCYXNlZCBvbiBLYWhuZW1hbiAmIFR2ZXJza3kgcHJvc3BlY3QgdGhlb3J5IGFuZCBiZWhhdmlvcmFsIHByaWNpbmcgcmVzZWFyY2gKIiIiCgppbXBvcnQgcmUKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCmZyb20gdHlwaW5nIGltcG9ydCBEaWN0LCBMaXN0LCBUdXBsZQoKCkBkYXRhY2xhc3MKY2xhc3MgQmlhc1Njb3JlOgogICAgIiIiUmVwcmVzZW50cyBhIGJpYXMgZGV0ZWN0aW9uIHJlc3VsdCIiIgogICAgbmFtZTogc3RyCiAgICBzY29yZTogZmxvYXQgICMgMC0xMDAKICAgIGNvbmZpZGVuY2U6IGZsb2F0ICAjIDAtMQogICAgaW5kaWNhdG9yczogTGlzdFtzdHJdCiAgICBleHBsYW5hdGlvbjogc3RyCgoKY2xhc3MgQmlhc01hdGNoZXI6CiAgICAiIiIKICAgIERldGVjdHMgYmVoYXZpb3JhbCBiaWFzZXMgaW4gcHJpY2luZyBzdHJ1Y3R1cmVzLgogICAgVXNlcyBrZXl3b3JkIG1hdGNoaW5nLCBwYXR0ZXJuIGFuYWx5c2lzLCBhbmQgZmVhdHVyZSBkZXRlY3Rpb24uCiAgICAiIiIKCiAgICBkZWYgX19pbml0X18oc2VsZik6CiAgICAgICAgIiIiSW5pdGlhbGl6ZSBiaWFzIGRldGVjdGlvbiBwYXR0ZXJucyBhbmQgcnVsZXMiIiIKICAgICAgICBzZWxmLmJpYXNfcGF0dGVybnMgPSBzZWxmLl9pbml0aWFsaXplX3BhdHRlcm5zKCkKCiAgICBkZWYgX2luaXRpYWxpemVfcGF0dGVybnMoc2VsZikgLT4gRGljdDoKICAgICAgICAiIiJEZWZpbmUga2V5d29yZCBwYXR0ZXJucyBhbmQgcnVsZXMgZm9yIGVhY2ggYmlhcyB0eXBlIiIiCiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgImFuY2hvcmluZyI6IHsKICAgICAgICAgICAgICAgICJrZXl3b3JkcyI6IFsKICAgICAgICAgICAgICAgICAgICAib3JpZ2luYWwgcHJpY2UiLCAid2FzIiwgInNhdmUiLCAiZGlzY291bnQiLCAicmVndWxhciBwcmljZSIsCiAgICAgICAgICAgICAgICAgICAgImxpc3QgcHJpY2UiLCAic3VnZ2VzdGVkIHJldGFpbCIsICJmdWxsIHByaWNlIiwgInJlZHVjZWQgZnJvbSIsCiAgICAgICAgICAgICAgICAgICAgIm1zcnAiLCAibm9ybWFsbHkiLCAic3RhbmRhcmQgcHJpY2UiLCAiYmVmb3JlIiwgIm1hcmtlZCBkb3duIgogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJwYXR0ZXJucyI6IFsKICAgICAgICAgICAgICAgICAgICByIlwkXGQrXHMqLVxzKlwkXGQrIiwgICMgUHJpY2UgcmFuZ2UKICAgICAgICAgICAgICAgICAgICByInNhdmVccypcJD9cZCsiLCAgIyBTYXZlIFgKICAgICAgICAgICAgICAgICAgICByIlxkKyVccypvZmYiLCAgIyBYJSBvZmYKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiQW5jaG9yaW5nIGVmZmVjdDogSW5pdGlhbCBwcmljZSByZWZlcmVuY2UgaW5mbHVlbmNlcyBwZXJjZXB0aW9uIG9mIHZhbHVlIgogICAgICAgICAgICB9LAogICAgICAgICAgICAic3Vua19jb3N0IjogewogICAgICAgICAgICAgICAgImtleXdvcmRzIjogWwogICAgICAgICAgICAgICAgICAgICJiYXR0bGUgcGFzcyIsICJzZWFzb24gcGFzcyIsICJzdWJzY3JpcHRpb24iLCAieWVhcmx5IiwKICAgICAgICAgICAgICAgICAgICAiY29tbWl0bWVudCIsICJsb2NrZWQgaW4iLCAibWVtYmVyc2hpcCIsICJwYXNzIiwgInJlY3VycmluZyIsCiAgICAgICAgICAgICAgICAgICAgInJlbmV3YWJsZSIsICJvbmdvaW5nIiwgImNvbnRpbnVvdXMiLCAibWFpbnRhaW4iCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgInBhdHRlcm5zIjogWwogICAgICAgICAgICAgICAgICAgIHIiKD86cGVyfHBlciApP21vbnRofHdlZWtseXxkYWlseXxhbm51YWwiLAogICAgICAgICAgICAgICAgICAgIHIic3Vic2NyaXB0aW9ufHBhc3N8bWVtYmVyc2hpcCIsCiAgICAgICAgICAgICAgICAgICAgciJhdXRvLXJlbmV3fGF1dG8tcmVuZXdzIiwKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiU3VuayBDb3N0IEZhbGxhY3k6IFJlY3VycmluZyBjb3N0cyBjcmVhdGUgcHN5Y2hvbG9naWNhbCBpbnZlc3RtZW50IgogICAgICAgICAgICB9LAogICAgICAgICAgICAibG9zc19hdmVyc2lvbiI6IHsKICAgICAgICAgICAgICAgICJrZXl3b3JkcyI6IFsKICAgICAgICAgICAgICAgICAgICAibGltaXRlZCB0aW1lIiwgIm9mZmVyIGV4cGlyZXMiLCAiZ29pbmcgYXdheSIsICJkaXNhcHBlYXJzIiwKICAgICAgICAgICAgICAgICAgICAiZG9uJ3QgbWlzcyIsICJ3b24ndCBiZSBiYWNrIiwgImVuZGluZyIsICJmaW5hbCIsICJsYXN0IGNoYW5jZSIsCiAgICAgICAgICAgICAgICAgICAgImV4Y2x1c2l2ZSIsICJleGNsdXNpdmUgb2ZmZXIiLCAib25seSB3aGlsZSBzdXBwbGllcyIsICJydW5uaW5nIG91dCIsCiAgICAgICAgICAgICAgICAgICAgImh1cnJ5IiwgInVyZ2VudCIsICJhY3Qgbm93IiwgImJlZm9yZSBpdCdzIGdvbmUiCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgInBhdHRlcm5zIjogWwogICAgICAgICAgICAgICAgICAgIHIibGltaXRcdypccysoPzp0aW1lfHF1YW50aXR5fG9mZmVyKSIsCiAgICAgICAgICAgICAgICAgICAgciIoPzplbmR8ZXhwaXJ8cmVtb3Z8ZGlzYXBwZWFyKS4qXHcrIiwKICAgICAgICAgICAgICAgICAgICByIig/OmRvbid0fG5ldmVyKVxzK21pc3MiLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJMb3NzIEF2ZXJzaW9uOiBGZWFyIG9mIG1pc3Npbmcgb3V0IG9yIGxvc2luZyB0aGUgb3Bwb3J0dW5pdHkiCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJmb21vX3NjYXJjaXR5IjogewogICAgICAgICAgICAgICAgImtleXdvcmRzIjogWwogICAgICAgICAgICAgICAgICAgICJsaW1pdGVkIiwgInJhcmUiLCAic2NhcmNlIiwgImV4Y2x1c2l2ZSIsICJvbmx5IiwgImZldyBsZWZ0IiwKICAgICAgICAgICAgICAgICAgICAibGltaXRlZCBzdG9jayIsICJydW5uaW5nIG91dCIsICJzb2xkIG91dCBzb29uIiwgImhvdCBpdGVtIiwKICAgICAgICAgICAgICAgICAgICAiaW4gZGVtYW5kIiwgInBvcHVsYXIiLCAidHJlbmRpbmciLCAiZXhjbHVzaXZlIGFjY2VzcyIsCiAgICAgICAgICAgICAgICAgICAgInZhbml0eSIsICJwcmVzdGlnZSIsICJzdGF0dXMiLCAiZWxpdGUiLCAidmlwIgogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJwYXR0ZXJucyI6IFsKICAgICAgICAgICAgICAgICAgICByIig/Om9ubHl8anVzdHxqdXN0IG9ubHkpXHMrXGQrXHMrKD86bGVmdHxyZW1haW4pIiwKICAgICAgICAgICAgICAgICAgICByImxpbWl0ZWRccysoPzplZGl0aW9ufHF1YW50aXR5fHRpbWV8YWNjZXNzKSIsCiAgICAgICAgICAgICAgICAgICAgciJcZCslXHMrb2ZmLipsaW1pdGVkIiwKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiRk9NTyAmIFNjYXJjaXR5OiBBcnRpZmljaWFsIHNjYXJjaXR5IGNyZWF0ZXMgdXJnZW5jeSBhbmQgcGVyY2VpdmVkIHZhbHVlIgogICAgICAgICAgICB9LAogICAgICAgICAgICAiZW5kb3dtZW50X2VmZmVjdCI6IHsKICAgICAgICAgICAgICAgICJrZXl3b3JkcyI6IFsKICAgICAgICAgICAgICAgICAgICAiYnVuZGxlIiwgInBhY2thZ2UiLCAiY29tYm8iLCAic2V0IiwgImNvbGxlY3Rpb24iLCAicGFja2FnZSBkZWFsIiwKICAgICAgICAgICAgICAgICAgICAiaW5jbHVkZWQiLCAiYm9udXMiLCAiZnJlZSBpdGVtIiwgImZyZWUiLCAiZ2lmdCIsICJleHRyYSIsCiAgICAgICAgICAgICAgICAgICAgInByZW1pdW0gYnVuZGxlIiwgImRlbHV4ZSIsICJ1bHRpbWF0ZSIsICJwcm8iLCAicGx1cyIKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAicGF0dGVybnMiOiBbCiAgICAgICAgICAgICAgICAgICAgciJidW5kbGUuKmZvclxzKlwkP1xkKyIsCiAgICAgICAgICAgICAgICAgICAgciIoPzpmcmVlfGJvbnVzfGluY2x1ZGVkKVxzK1x3KyIsCiAgICAgICAgICAgICAgICAgICAgciJ2YWx1ZS4qXCQ/XGQrIiwKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiRW5kb3dtZW50IEVmZmVjdDogQnVuZGxlZCBpdGVtcyBmZWVsIG1vcmUgdmFsdWFibGUgdGhhbiBzZXBhcmF0ZSIKICAgICAgICAgICAgfSwKICAgICAgICAgICAgInN0YXR1c19xdW9fYmlhcyI6IHsKICAgICAgICAgICAgICAgICJrZXl3b3JkcyI6IFsKICAgICAgICAgICAgICAgICAgICAiZGVmYXVsdCIsICJzdGFuZGFyZCIsICJiYXNpYyIsICJmcmVlIHRpZXIiLCAiZW50cnkgbGV2ZWwiLAogICAgICAgICAgICAgICAgICAgICJtb3N0IHBvcHVsYXIiLCAicmVjb21tZW5kZWQiLCAic3VnZ2VzdGVkIiwgInN0YXJ0ZXIiLAogICAgICAgICAgICAgICAgICAgICJ0aWVyIiwgInBsYW4iLCAibGV2ZWwiLCAidXBncmFkZSIKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAicGF0dGVybnMiOiBbCiAgICAgICAgICAgICAgICAgICAgciIoPzptb3N0XHMrKT9wb3B1bGFyfHJlY29tbWVuZGVkfGRlZmF1bHQiLAogICAgICAgICAgICAgICAgICAgIHIidXBncmFkZS4qKD86ZnJvbXx0bykiLAogICAgICAgICAgICAgICAgICAgIHIiKD86YmFzaWN8c3RhbmRhcmR8ZnJlZSlccysoPzpwbGFufHRpZXJ8dmVyc2lvbikiLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJTdGF0dXMgUXVvIEJpYXM6IERlZmF1bHQgb3B0aW9ucyBhdHRyYWN0IG1vcmUgc2VsZWN0aW9ucyIKICAgICAgICAgICAgfSwKICAgICAgICAgICAgInNvY2lhbF9wcm9vZiI6IHsKICAgICAgICAgICAgICAgICJrZXl3b3JkcyI6IFsKICAgICAgICAgICAgICAgICAgICAicG9wdWxhciIsICJiZXN0c2VsbGluZyIsICJtb3N0IHB1cmNoYXNlZCIsICJ0cnVzdGVkIGJ5IiwKICAgICAgICAgICAgICAgICAgICAiY3VzdG9tZXIgZmF2b3JpdGUiLCAidG9wIHJhdGVkIiwgIjUgc3RhcnMiLCAibG92ZWQgYnkiLAogICAgICAgICAgICAgICAgICAgICJhd2FyZCIsICJyZWNvZ25pdGlvbiIsICJleHBlcnRzIHJlY29tbWVuZCIsICJ1c2VkIGJ5IiwKICAgICAgICAgICAgICAgICAgICAibWlsbGlvbnMgb2YgdXNlcnMiLCAiam9pbiIsICJjb21tdW5pdHkiLCAidHJlbmRpbmciCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgInBhdHRlcm5zIjogWwogICAgICAgICAgICAgICAgICAgIHIiKD86XGQrKD86LFxkKyk/XHMrKT8oPzp1c2Vyc3xjdXN0b21lcnN8cGVvcGxlKSIsCiAgICAgICAgICAgICAgICAgICAgciJcZCtccyooPzpzdGFyfHJhdGluZykiLAogICAgICAgICAgICAgICAgICAgIHIiKD86YXdhcmR8d2lubmVyfHJlY29nbml6ZWR8dHJ1c3RlZCkiLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJTb2NpYWwgUHJvb2Y6IE90aGVycycgY2hvaWNlcyB2YWxpZGF0ZSBwdXJjaGFzZXMiCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJkZWNveV9wcmljaW5nIjogewogICAgICAgICAgICAgICAgImtleXdvcmRzIjogWwogICAgICAgICAgICAgICAgICAgICJ0aWVyIiwgInBsYW4iLCAib3B0aW9uIiwgInRocmVlIHRpZXIiLCAidGhyZWUgcHJpY2UiLAogICAgICAgICAgICAgICAgICAgICJnb29kIiwgImJldHRlciIsICJiZXN0IiwgImJyb256ZSIsICJzaWx2ZXIiLCAiZ29sZCIsCiAgICAgICAgICAgICAgICAgICAgInN0YW5kYXJkIiwgInBybyIsICJlbnRlcnByaXNlIiwgInZzIiwgImNvbXBhcmlzb24iCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgInBhdHRlcm5zIjogWwogICAgICAgICAgICAgICAgICAgIHIiKD86Z29vZHxiZXR0ZXJ8YmVzdClccysoPzpwbGFufG9wdGlvbnx0aWVyfHByaWNlKSIsCiAgICAgICAgICAgICAgICAgICAgciIoPzpicm9uemV8c2lsdmVyfGdvbGR8cGxhdGludW0pIiwKICAgICAgICAgICAgICAgICAgICByImNvbXBhcmUuKnBsYW4iLAogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJEZWNveSBQcmljaW5nOiBNaWRkbGUgb3B0aW9uIG1ha2VzIGV4cGVuc2l2ZSBvcHRpb24gc2VlbSBiZXR0ZXIgdmFsdWUiCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJkdWFsX2N1cnJlbmN5IjogewogICAgICAgICAgICAgICAgImtleXdvcmRzIjogWwogICAgICAgICAgICAgICAgICAgICJjb2lucyIsICJjcmVkaXRzIiwgImdlbXMiLCAicG9pbnRzIiwgInRva2VucyIsICJidWNrcyIsCiAgICAgICAgICAgICAgICAgICAgInByZW1pdW0iLCAicHJlbWl1bSBjdXJyZW5jeSIsICJiYXR0bGUgcGFzcyIsICJyb2J1eCIsCiAgICAgICAgICAgICAgICAgICAgInYtYnVja3MiLCAibW9uZXlib29zdGVycyIsICJ2aXJ0dWFsIGN1cnJlbmN5IiwKICAgICAgICAgICAgICAgICAgICAiaW4tZ2FtZSBjdXJyZW5jeSIsICJwcmVtaXVtIHBvaW50cyIKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAicGF0dGVybnMiOiBbCiAgICAgICAgICAgICAgICAgICAgciIoPzpjb2luc3xnZW1zfGNyZWRpdHN8cG9pbnRzfHRva2Vuc3xidWNrc3x2LWJ1Y2tzKSIsCiAgICAgICAgICAgICAgICAgICAgciIoPzpcZCtccyspPyg/OnByZW1pdW18dmlydHVhbHxpbi1nYW1lKVxzKyg/OmN1cnJlbmN5fGNvaW5zKSIsCiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgImRlc2NyaXB0aW9uIjogIkR1YWwgQ3VycmVuY3k6IEFic3RyYWN0IGN1cnJlbmN5IG9ic2N1cmVzIHRydWUgc3BlbmRpbmciCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJhcnRpZmljaWFsX3NjYXJjaXR5IjogewogICAgICAgICAgICAgICAgImtleXdvcmRzIjogWwogICAgICAgICAgICAgICAgICAgICJsaW1pdGVkIGVkaXRpb24iLCAiZXhjbHVzaXZlIiwgImNvbGxlY3RvciIsICJyYXJlIiwKICAgICAgICAgICAgICAgICAgICAic2Vhc29uYWwiLCAiYmF0dGxlIHBhc3MiLCAiZXZlbnQiLCAib25seSIsICJhdmFpbGFibGUiLAogICAgICAgICAgICAgICAgICAgICJuZXZlciBhZ2FpbiIsICJvbmUtdGltZSIsICJwZXJtYW5lbnQiLCAiZm9yZXZlciBnb25lIiwKICAgICAgICAgICAgICAgICAgICAiYmF0dGxlcGFzcyIsICJjb3NtZXRpYyIsICJza2luIiwgImNvc21ldGljcyIKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAicGF0dGVybnMiOiBbCiAgICAgICAgICAgICAgICAgICAgciJsaW1pdGVkXHMrZWRpdGlvbnxleGNsdXNpdmVccysoPzpldmVudHxpdGVtfGNvc21ldGljKSIsCiAgICAgICAgICAgICAgICAgICAgciJhdmFpbGFibGUuKig/OmZvcnx1bnRpbClccysoPzpcZCtccyspPyg/OmRheXN8aG91cnN8d2Vla3MpIiwKICAgICAgICAgICAgICAgICAgICByIig/OnNlYXNvbmFsfGV2ZW50fGJhdHRsZVxzK3Bhc3MpIiwKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiQXJ0aWZpY2lhbCBTY2FyY2l0eTogVGltZS9xdWFudGl0eSBsaW1pdHMgZHJpdmUgdXJnZW5jeSBhbmQgc3BlbmRpbmciCiAgICAgICAgICAgIH0sCiAgICAgICAgfQoKICAgIGRlZiBkZXRlY3RfYmlhcyhzZWxmLCBwcmljaW5nX3RleHQ6IHN0ciwgYmlhc190eXBlOiBzdHIpIC0+IEJpYXNTY29yZToKICAgICAgICAiIiIKICAgICAgICBEZXRlY3QgcHJlc2VuY2Ugb2YgYSBzcGVjaWZpYyBiaWFzIGluIHByaWNpbmcgdGV4dC4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgcHJpY2luZ190ZXh0OiBEZXNjcmlwdGlvbiBvZiBwcmljaW5nIHN0cnVjdHVyZQogICAgICAgICAgICBiaWFzX3R5cGU6IFR5cGUgb2YgYmlhcyB0byBkZXRlY3QKCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgQmlhc1Njb3JlIHdpdGggZGV0ZWN0aW9uIHJlc3VsdHMKICAgICAgICAiIiIKICAgICAgICBpZiBiaWFzX3R5cGUgbm90IGluIHNlbGYuYmlhc19wYXR0ZXJuczoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIlVua25vd24gYmlhcyB0eXBlOiB7Ymlhc190eXBlfSIpCgogICAgICAgIHBhdHRlcm5zID0gc2VsZi5iaWFzX3BhdHRlcm5zW2JpYXNfdHlwZV0KICAgICAgICB0ZXh0X2xvd2VyID0gcHJpY2luZ190ZXh0Lmxvd2VyKCkKCiAgICAgICAgIyBLZXl3b3JkIG1hdGNoaW5nCiAgICAgICAgbWF0Y2hlZF9rZXl3b3JkcyA9IFtdCiAgICAgICAgZm9yIGtleXdvcmQgaW4gcGF0dGVybnNbImtleXdvcmRzIl06CiAgICAgICAgICAgIGlmIGtleXdvcmQgaW4gdGV4dF9sb3dlcjoKICAgICAgICAgICAgICAgIG1hdGNoZWRfa2V5d29yZHMuYXBwZW5kKGtleXdvcmQpCgogICAgICAgIGtleXdvcmRfc2NvcmUgPSBtaW4obGVuKG1hdGNoZWRfa2V5d29yZHMpICogOCwgNTApICAjIFVwIHRvIDUwIGZyb20ga2V5d29yZHMKCiAgICAgICAgIyBQYXR0ZXJuIG1hdGNoaW5nCiAgICAgICAgcGF0dGVybl9tYXRjaGVzID0gW10KICAgICAgICBmb3IgcGF0dGVybiBpbiBwYXR0ZXJuc1sicGF0dGVybnMiXToKICAgICAgICAgICAgaWYgcmUuc2VhcmNoKHBhdHRlcm4sIHRleHRfbG93ZXIsIHJlLklHTk9SRUNBU0UpOgogICAgICAgICAgICAgICAgcGF0dGVybl9tYXRjaGVzLmFwcGVuZChwYXR0ZXJuKQogICAgICAgICAgICAgICAga2V5d29yZF9zY29yZSArPSAxNSAgIyBCb29zdCBmcm9tIHBhdHRlcm4gbWF0Y2gKCiAgICAgICAga2V5d29yZF9zY29yZSA9IG1pbihrZXl3b3JkX3Njb3JlLCAxMDApCgogICAgICAgICMgQ29uZmlkZW5jZSBiYXNlZCBvbiBudW1iZXIgb2YgaW5kaWNhdG9ycwogICAgICAgIHRvdGFsX2luZGljYXRvcnMgPSBsZW4obWF0Y2hlZF9rZXl3b3JkcykgKyBsZW4ocGF0dGVybl9tYXRjaGVzKQogICAgICAgIGNvbmZpZGVuY2UgPSBtaW4odG90YWxfaW5kaWNhdG9ycyAvIDUsIDEuMCkgICMgU2F0dXJhdGUgYXQgNSsgaW5kaWNhdG9ycwoKICAgICAgICBpbmRpY2F0b3JzID0gbWF0Y2hlZF9rZXl3b3Jkc1s6M10gICMgU2hvdyB0b3AgMyBpbmRpY2F0b3JzCgogICAgICAgIHJldHVybiBCaWFzU2NvcmUoCiAgICAgICAgICAgIG5hbWU9Ymlhc190eXBlLnJlcGxhY2UoIl8iLCAiICIpLnRpdGxlKCksCiAgICAgICAgICAgIHNjb3JlPWtleXdvcmRfc2NvcmUsCiAgICAgICAgICAgIGNvbmZpZGVuY2U9Y29uZmlkZW5jZSwKICAgICAgICAgICAgaW5kaWNhdG9ycz1pbmRpY2F0b3JzLAogICAgICAgICAgICBleHBsYW5hdGlvbj1wYXR0ZXJuc1siZGVzY3JpcHRpb24iXQogICAgICAgICkKCiAgICBkZWYgYW5hbHl6ZV9wcmljaW5nKHNlbGYsIHByaWNpbmdfdGV4dDogc3RyKSAtPiBUdXBsZVtMaXN0W0JpYXNTY29yZV0sIGZsb2F0XToKICAgICAgICAiIiIKICAgICAgICBBbmFseXplIHByaWNpbmcgc3RydWN0dXJlIGZvciBhbGwgYmlhc2VzLgoKICAgICAgICBBcmdzOgogICAgICAgICAgICBwcmljaW5nX3RleHQ6IEZ1bGwgcHJpY2luZyBkZXNjcmlwdGlvbgoKICAgICAgICBSZXR1cm5zOgogICAgICAgICAgICBUdXBsZSBvZiAobGlzdCBvZiBCaWFzU2NvcmVzLCBvdmVyYWxsIG1hbmlwdWxhdGlvbiBzY29yZSAwLTEwMCkKICAgICAgICAiIiIKICAgICAgICBiaWFzX3Njb3JlcyA9IFtdCgogICAgICAgIGZvciBiaWFzX3R5cGUgaW4gc2VsZi5iaWFzX3BhdHRlcm5zLmtleXMoKToKICAgICAgICAgICAgc2NvcmUgPSBzZWxmLmRldGVjdF9iaWFzKHByaWNpbmdfdGV4dCwgYmlhc190eXBlKQogICAgICAgICAgICBiaWFzX3Njb3Jlcy5hcHBlbmQoc2NvcmUpCgogICAgICAgICMgQ2FsY3VsYXRlIG92ZXJhbGwgbWFuaXB1bGF0aW9uIHNjb3JlCiAgICAgICAgIyBBdmVyYWdlIHNjb3JlLCB3ZWlnaHRlZCBieSBjb25maWRlbmNlCiAgICAgICAgaWYgYmlhc19zY29yZXM6CiAgICAgICAgICAgIHdlaWdodGVkX3N1bSA9IHN1bShzLnNjb3JlICogcy5jb25maWRlbmNlIGZvciBzIGluIGJpYXNfc2NvcmVzKQogICAgICAgICAgICB0b3RhbF9jb25maWRlbmNlID0gc3VtKHMuY29uZmlkZW5jZSBmb3IgcyBpbiBiaWFzX3Njb3JlcykKICAgICAgICAgICAgb3ZlcmFsbF9zY29yZSA9IHdlaWdodGVkX3N1bSAvIHRvdGFsX2NvbmZpZGVuY2UgaWYgdG90YWxfY29uZmlkZW5jZSA+IDAgZWxzZSAwCiAgICAgICAgZWxzZToKICAgICAgICAgICAgb3ZlcmFsbF9zY29yZSA9IDAKCiAgICAgICAgIyBTb3J0IGJ5IHNjb3JlIGRlc2NlbmRpbmcKICAgICAgICBiaWFzX3Njb3Jlcy5zb3J0KGtleT1sYW1iZGEgeDogeC5zY29yZSwgcmV2ZXJzZT1UcnVlKQoKICAgICAgICByZXR1cm4gYmlhc19zY29yZXMsIG92ZXJhbGxfc2NvcmUKCiAgICBkZWYgZ2V0X3N1bW1hcnkoc2VsZiwgb3ZlcmFsbF9zY29yZTogZmxvYXQpIC0+IHN0cjoKICAgICAgICAiIiJHZW5lcmF0ZSBzdW1tYXJ5IG9mIG1hbmlwdWxhdGlvbiBsZXZlbCIiIgogICAgICAgIGlmIG92ZXJhbGxfc2NvcmUgPCAyMDoKICAgICAgICAgICAgcmV0dXJuICJMb3c6IE1pbmltYWwgYmlhcyBleHBsb2l0YXRpb24gZGV0ZWN0ZWQiCiAgICAgICAgZWxpZiBvdmVyYWxsX3Njb3JlIDwgNDA6CiAgICAgICAgICAgIHJldHVybiAiTW9kZXJhdGU6IFNvbWUgYmVoYXZpb3JhbCBwcmljaW5nIHRhY3RpY3MgcHJlc2VudCIKICAgICAgICBlbGlmIG92ZXJhbGxfc2NvcmUgPCA2MDoKICAgICAgICAgICAgcmV0dXJuICJIaWdoOiBNdWx0aXBsZSBiaWFzIGV4cGxvaXRhdGlvbiB0YWN0aWNzIGVtcGxveWVkIgogICAgICAgIGVsaWYgb3ZlcmFsbF9zY29yZSA8IDgwOgogICAgICAgICAgICByZXR1cm4gIlZlcnkgSGlnaDogRXh0ZW5zaXZlIGJlaGF2aW9yYWwgcHJpY2luZyBvcHRpbWl6YXRpb24iCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmV0dXJuICJFeHRyZW1lOiBBZ2dyZXNzaXZlIG11bHRpLWJpYXMgZXhwbG9pdGF0aW9uIHN0cmF0ZWd5IgoKCiMgUHJlLWxvYWRlZCBleGFtcGxlcwpFWEFNUExFUyA9IHsKICAgICJGb3J0bml0ZSBCYXR0bGUgUGFzcyI6IHsKICAgICAgICAiZGVzY3JpcHRpb24iOiAiRm9ydG5pdGUgQmF0dGxlIFBhc3MiLAogICAgICAgICJ0ZXh0IjogIiIiCiAgICAgICAgRm9ydG5pdGUgQmF0dGxlIFBhc3MgKCQ5Ljk5L3NlYXNvbiwgc2Vhc29uYWwgMTAtd2VlayBkdXJhdGlvbik6CiAgICAgICAgLSBMaW1pdGVkLXRpbWUgZXhjbHVzaXZlIGNvc21ldGljcyBhbmQgc2tpbnMKICAgICAgICAtIEV4Y2x1c2l2ZSBiYXR0bGUgcGFzcyBpdGVtcyBuZXZlciBhdmFpbGFibGUgYWdhaW4gYWZ0ZXIgc2Vhc29uIGVuZHMKICAgICAgICAtIFYtQnVja3MgcHJlbWl1bSBjdXJyZW5jeSBzeXN0ZW0gKCQ5Ljk5IGZvciAxMDAwIFYtQnVja3MpCiAgICAgICAgLSBCdW5kbGUgZGVhbHM6IFNhdmUgbW9uZXkgd2hlbiBidXlpbmcgY29zbWV0aWNzIHRvZ2V0aGVyCiAgICAgICAgLSBSYXJlIGV4Y2x1c2l2ZSBza2lucyB0aGF0IGNyZWF0ZSBzdGF0dXMgYW1vbmcgcGxheWVycwogICAgICAgIC0gRnJlZSB0aWVyIHdpdGggbGltaXRlZCByZXdhcmRzIHRvIGVuY291cmFnZSBwYWlkIHVwZ3JhZGUKICAgICAgICAtICJNb3N0IFBvcHVsYXIiIHByaWNpbmcgdGllciBhdCAkOS45OQogICAgICAgIC0gTGltaXRlZC10aW1lIGNvc21ldGljcyBhdmFpbGFibGUgb25seSBkdXJpbmcgc3BlY2lmaWMgZXZlbnRzCiAgICAgICAgLSBTZWFzb25hbCBwcm9ncmVzc2lvbiBzeXN0ZW0gY3JlYXRlcyBzdW5rIGNvc3Qgd2l0aCBvbmdvaW5nIHBsYXkKICAgICAgICAtIEZyaWVuZCBpbmZsdWVuY2U6IFNlZSBvdGhlcnMgd2l0aCBleGNsdXNpdmUgY29zbWV0aWNzCiAgICAgICAgLSBUaW1lIHByZXNzdXJlOiBCYXR0bGUgcGFzcyBleHBpcmVzIGF0IHNlYXNvbiBlbmQKICAgICAgICAtIER1YWwgY3VycmVuY3kgc3lzdGVtIG9iZnVzY2F0ZXMgdHJ1ZSBVU0Qgc3BlbmRpbmcKICAgICAgICAiIiIKICAgIH0sCiAgICAiRklGQSBVbHRpbWF0ZSBUZWFtIjogewogICAgICAgICJkZXNjcmlwdGlvbiI6ICJGSUZBIFVsdGltYXRlIFRlYW0gKEVBIFNwb3J0cykiLAogICAgICAgICJ0ZXh0IjogIiIiCiAgICAgICAgRklGQSBVbHRpbWF0ZSBUZWFtOgogICAgICAgIC0gRklGQSBQb2ludHMgcHJlbWl1bSBjdXJyZW5jeSAocmVhbCBtb25leSkKICAgICAgICAtIExpbWl0ZWQgY2FyZCBwYWNrcyAoJDQuOTktJDE5Ljk5KSB3aXRoIHJhbmRvbSBjb250ZW50cwogICAgICAgIC0gUmFyZSAiVGVhbSBvZiB0aGUgV2VlayIgY2FyZHMgYXZhaWxhYmxlIGJyaWVmbHkKICAgICAgICAtIENvbGxlY3RpYmxlIGNhcmQgZ2FtZSB3aXRoIHRyYWRpbmcgbWFya2V0CiAgICAgICAgLSBTcXVhZCBidWlsZGluZyBjcmVhdGVzIHN1bmsgY29zdCBpbnZlc3RtZW50CiAgICAgICAgLSAiTW9zdCBQdXJjaGFzZWQiIHRpZXIgZm9yIHBvcHVsYXIgY2FyZCBwYWNrcwogICAgICAgIC0gU2Vhc29uYWwgY2FyZCByb3RhdGlvbiBjcmVhdGVzIHVyZ2VuY3kgdG8gYnV5CiAgICAgICAgLSBQbGF5ZXJzIHNob3cgb2ZmIHRlYW1zIGluIG9ubGluZSBtdWx0aXBsYXllciAoc29jaWFsIHByb29mKQogICAgICAgIC0gV2Vla2x5IGxpbWl0ZWQtdGltZSBzcGVjaWFsIHByb21vdGlvbnMKICAgICAgICAtIEV4cGVuc2l2ZSBzdGFyIHBsYXllciBjYXJkcyBkcml2ZSBzcGVuZGluZwogICAgICAgIC0gUmFuZG9tIGxvb3QgYm94ZXMgY3JlYXRlIGdhbWJsaW5nLWxpa2UgbWVjaGFuaWNzCiAgICAgICAgLSAiRmxhc2ggc2FsZXMiIG9uIGxpbWl0ZWQtdGltZSBwbGF5ZXIgY2FyZHMKICAgICAgICAiIiIKICAgIH0sCiAgICAiTmV0ZmxpeCI6IHsKICAgICAgICAiZGVzY3JpcHRpb24iOiAiTmV0ZmxpeCBTdWJzY3JpcHRpb24iLAogICAgICAgICJ0ZXh0IjogIiIiCiAgICAgICAgTmV0ZmxpeCBTdWJzY3JpcHRpb24gUGxhbnM6CiAgICAgICAgLSBUaHJlZS10aWVyIHByaWNpbmc6IEJhc2ljICgkNi45OSksIFN0YW5kYXJkICgkMTUuNDkpLCBQcmVtaXVtICgkMjIuOTkpCiAgICAgICAgLSBNb250aGx5IHJlY3VycmluZyBzdWJzY3JpcHRpb24gKGF1dG8tcmVuZXdzKQogICAgICAgIC0gU3RhbmRhcmQgdGllciBtYXJrZWQgYXMgIk1vc3QgUG9wdWxhciIKICAgICAgICAtIFNoYXJpbmcgcmVzdHJpY3Rpb25zIGNyZWF0ZSBmYW1pbHkgcHJlc3N1cmUgdG8gdXBncmFkZQogICAgICAgIC0gRnJlZSB0cmlhbCBwZXJpb2QgY3JlYXRlcyBjb21taXRtZW50CiAgICAgICAgLSBCaW5nZS13YXRjaCBwc3ljaG9sb2d5IGNyZWF0ZXMgc3VuayBjb3N0CiAgICAgICAgLSBFeGNsdXNpdmUgY29udGVudCBub3QgYXZhaWxhYmxlIGVsc2V3aGVyZQogICAgICAgIC0gIkNhbmNlbCBhbnl0aW1lIiBtZXNzYWdpbmcgcmVkdWNlcyBhYmFuZG9ubWVudAogICAgICAgIC0gUmVndWxhciBwcmljZSBpbmNyZWFzZXMgZ3JhbmRmYXRoZXIgZXhpc3RpbmcgdXNlcnMKICAgICAgICAtIE5ldyByZWxlYXNlcyBjcmVhdGUgRk9NTyBhbmQgcmV0ZW50aW9uCiAgICAgICAgIiIiCiAgICB9LAogICAgIkFtYXpvbiBQcmltZSI6IHsKICAgICAgICAiZGVzY3JpcHRpb24iOiAiQW1hem9uIFByaW1lIE1lbWJlcnNoaXAiLAogICAgICAgICJ0ZXh0IjogIiIiCiAgICAgICAgQW1hem9uIFByaW1lIE1lbWJlcnNoaXA6CiAgICAgICAgLSBBbm51YWwgKCQxMzkpIG9yIG1vbnRobHkgKCQxNC45OSkgc3Vic2NyaXB0aW9uIG9wdGlvbnMKICAgICAgICAtIEJ1bmRsZSB2YWx1ZTogRnJlZSBzaGlwcGluZywgUHJpbWUgVmlkZW8sIFByaW1lIE11c2ljLCBldGMuCiAgICAgICAgLSBSZWNvbW1lbmRlZCB1cGdyYWRlIGZyb20gZnJlZSBBbWF6b24gYWNjb3VudAogICAgICAgIC0gTW9udGhseSBjb21taXRtZW50IHdpdGggYXV0by1yZW5ld2FsCiAgICAgICAgLSBFeGNsdXNpdmUgUHJpbWUgRGF5IGRlYWxzIGNyZWF0ZSBzY2FyY2l0eSBhbmQgdXJnZW5jeQogICAgICAgIC0gRnJlZSB0cmlhbCBjcmVhdGVzIHN1bmsgY29zdCB3aGVuIHVzZXJzIGRvd25sb2FkIGFwcAogICAgICAgIC0gRW5kb3dtZW50IGVmZmVjdDogQnVuZGxlIG1ha2VzIGluZGl2aWR1YWwgc2VydmljZXMgc2VlbSB2YWx1YWJsZQogICAgICAgIC0gU3dpdGNoaW5nIGNvc3RzOiBEaWZmaWN1bHQgdG8gbGVhdmUgYWZ0ZXIgdXNpbmcgbXVsdGlwbGUgc2VydmljZXMKICAgICAgICAtIFN0YXR1cyBzeW1ib2w6IFByaW1lIGJhZGdlIG9uIHB1cmNoYXNlcwogICAgICAgIC0gU3R1ZGVudCBkaXNjb3VudCBjcmVhdGVzIHlvdXRoIG1hcmtldCBsb2NrLWluCiAgICAgICAgIiIiCiAgICB9LAogICAgIkNvZmZlZSBTdWJzY3JpcHRpb24iOiB7CiAgICAgICAgImRlc2NyaXB0aW9uIjogIlR5cGljYWwgQ29mZmVlIFN1YnNjcmlwdGlvbiBTZXJ2aWNlIiwKICAgICAgICAidGV4dCI6ICIiIgogICAgICAgIERhaWx5IENvZmZlZSBTaG9wIFN1YnNjcmlwdGlvbiBNb2RlbDoKICAgICAgICAtIExveWFsdHkgY2FyZDogQnV5IDEwIGNvZmZlZXMsIGdldCAxIGZyZWUKICAgICAgICAtIFN1YnNjcmlwdGlvbiBtZW1iZXJzaGlwICgkOS45OS9tb250aCkgZm9yIGRhaWx5IGRpc2NvdW50cwogICAgICAgIC0gVGllcmVkIGxveWFsdHk6IFNpbHZlciAoJDAuNTAgb2ZmKSwgR29sZCAoJDEuMDAgb2ZmKQogICAgICAgIC0gTGltaXRlZC10aW1lIHNlYXNvbmFsIGZsYXZvcnMgKFB1bXBraW4gU3BpY2UgU2VwdGVtYmVyLU9jdG9iZXIpCiAgICAgICAgLSAiU2F2ZSAkMTUvbW9udGgiIGFuY2hvciBtZXNzYWdpbmcgZm9yIHN1YnNjcmlwdGlvbgogICAgICAgIC0gR2FtaWZpY2F0aW9uOiBDb2xsZWN0IHN0YW1wcywgdW5sb2NrIHRpZXJzCiAgICAgICAgLSBNb2JpbGUgYXBwIHJld2FyZHMgY3JlYXRlIGhhYml0IGZvcm1hdGlvbgogICAgICAgIC0gU29jaWFsIHByb29mOiAiIzEgQ29mZmVlIFNob3AgaW4gdGhlIENpdHkiIHNpZ25zCiAgICAgICAgLSBGcmVlIHVwZ3JhZGUgb2ZmZXIgImp1c3QgZm9yIHlvdSIgdG8gZHJpdmUgdHJpYWwKICAgICAgICAtIEJpcnRoZGF5IGJvbnVzIGNyZWF0ZXMgZ2lmdCByZWNpcHJvY2l0eQogICAgICAgICIiIgogICAgfQp9Cg==
+"""
+Behavioral Bias Detector - Core Logic
+Analyzes pricing structures against behavioral economics frameworks
+Based on Kahneman & Tversky prospect theory and behavioral pricing research
+"""
+
+import re
+from dataclasses import dataclass
+from typing import Dict, List, Tuple
+
+
+@dataclass
+class BiasScore:
+    """Represents a bias detection result"""
+    name: str
+    score: float  # 0-100
+    confidence: float  # 0-1
+    indicators: List[str]
+    explanation: str
+
+
+class BiasMatcher:
+    """
+    Detects behavioral biases in pricing structures.
+    Uses keyword matching, pattern analysis, and feature detection.
+    """
+
+    def __init__(self):
+        """Initialize bias detection patterns and rules"""
+        self.bias_patterns = self._initialize_patterns()
+
+    def _initialize_patterns(self) -> Dict:
+        """Define keyword patterns and rules for each bias type"""
+        return {
+            "anchoring": {
+                "keywords": [
+                    "original price", "was", "save", "discount", "regular price",
+                    "list price", "suggested retail", "full price", "reduced from",
+                    "msrp", "normally", "standard price", "before", "marked down"
+                ],
+                "patterns": [
+                    r"\$\d+\s*-\s*\$\d+",  # Price range
+                    r"save\s*\$?\d+",  # Save X
+                    r"\d+%\s*off",  # X% off
+                ],
+                "description": "Anchoring effect: Initial price reference influences perception of value"
+            },
+            "sunk_cost": {
+                "keywords": [
+                    "battle pass", "season pass", "subscription", "yearly",
+                    "commitment", "locked in", "membership", "pass", "recurring",
+                    "renewable", "ongoing", "continuous", "maintain"
+                ],
+                "patterns": [
+                    r"(?:per|per )?month|weekly|daily|annual",
+                    r"subscription|pass|membership",
+                    r"auto-renew|auto-renews",
+                ],
+                "description": "Sunk Cost Fallacy: Recurring costs create psychological investment"
+            },
+            "loss_aversion": {
+                "keywords": [
+                    "limited time", "offer expires", "going away", "disappears",
+                    "don't miss", "won't be back", "ending", "final", "last chance",
+                    "exclusive", "exclusive offer", "only while supplies", "running out",
+                    "hurry", "urgent", "act now", "before it's gone"
+                ],
+                "patterns": [
+                    r"limit\w*\s+(?:time|quantity|offer)",
+                    r"(?:end|expir|remov|disappear).*\w+",
+                    r"(?:don't|never)\s+miss",
+                ],
+                "description": "Loss Aversion: Fear of missing out or losing the opportunity"
+            },
+            "fomo_scarcity": {
+                "keywords": [
+                    "limited", "rare", "scarce", "exclusive", "only", "few left",
+                    "limited stock", "running out", "sold out soon", "hot item",
+                    "in demand", "popular", "trending", "exclusive access",
+                    "vanity", "prestige", "status", "elite", "vip"
+                ],
+                "patterns": [
+                    r"(?:only|just|just only)\s+\d+\s+(?:left|remain)",
+                    r"limited\s+(?:edition|quantity|time|access)",
+                    r"\d+%\s+off.*limited",
+                ],
+                "description": "FOMO & Scarcity: Artificial scarcity creates urgency and perceived value"
+            },
+            "endowment_effect": {
+                "keywords": [
+                    "bundle", "package", "combo", "set", "collection", "package deal",
+                    "included", "bonus", "free item", "free", "gift", "extra",
+                    "premium bundle", "deluxe", "ultimate", "pro", "plus"
+                ],
+                "patterns": [
+                    r"bundle.*for\s*\$?\d+",
+                    r"(?:free|bonus|included)\s+\w+",
+                    r"value.*\$?\d+",
+                ],
+                "description": "Endowment Effect: Bundled items feel more valuable than separate"
+            },
+            "status_quo_bias": {
+                "keywords": [
+                    "default", "standard", "basic", "free tier", "entry level",
+                    "most popular", "recommended", "suggested", "starter",
+                    "tier", "plan", "level", "upgrade"
+                ],
+                "patterns": [
+                    r"(?:most\s+)?popular|recommended|default",
+                    r"upgrade.*(?:from|to)",
+                    r"(?:basic|standard|free)\s+(?:plan|tier|version)",
+                ],
+                "description": "Status Quo Bias: Default options attract more selections"
+            },
+            "social_proof": {
+                "keywords": [
+                    "popular", "bestselling", "most purchased", "trusted by",
+                    "customer favorite", "top rated", "5 stars", "loved by",
+                    "award", "recognition", "experts recommend", "used by",
+                    "millions of users", "join", "community", "trending"
+                ],
+                "patterns": [
+                    r"(?:\d+(?:,\d+)?\s+)?(?:users|customers|people)",
+                    r"\d+\s*(?:star|rating)",
+                    r"(?:award|winner|recognized|trusted)",
+                ],
+                "description": "Social Proof: Others' choices validate purchases"
+            },
+            "decoy_pricing": {
+                "keywords": [
+                    "tier", "plan", "option", "three tier", "three price",
+                    "good", "better", "best", "bronze", "silver", "gold",
+                    "standard", "pro", "enterprise", "vs", "comparison"
+                ],
+                "patterns": [
+                    r"(?:good|better|best)\s+(?:plan|option|tier|price)",
+                    r"(?:bronze|silver|gold|platinum)",
+                    r"compare.*plan",
+                ],
+                "description": "Decoy Pricing: Middle option makes expensive option seem better value"
+            },
+            "dual_currency": {
+                "keywords": [
+                    "coins", "credits", "gems", "points", "tokens", "bucks",
+                    "premium", "premium currency", "battle pass", "robux",
+                    "v-bucks", "moneyboosters", "virtual currency",
+                    "in-game currency", "premium points"
+                ],
+                "patterns": [
+                    r"(?:coins|gems|credits|points|tokens|bucks|v-bucks)",
+                    r"(?:\d+\s+)?(?:premium|virtual|in-game)\s+(?:currency|coins)",
+                ],
+                "description": "Dual Currency: Abstract currency obscures true spending"
+            },
+            "artificial_scarcity": {
+                "keywords": [
+                    "limited edition", "exclusive", "collector", "rare",
+                    "seasonal", "battle pass", "event", "only", "available",
+                    "never again", "one-time", "permanent", "forever gone",
+                    "battlepass", "cosmetic", "skin", "cosmetics"
+                ],
+                "patterns": [
+                    r"limited\s+edition|exclusive\s+(?:event|item|cosmetic)",
+                    r"available.*(?:for|until)\s+(?:\d+\s+)?(?:days|hours|weeks)",
+                    r"(?:seasonal|event|battle\s+pass)",
+                ],
+                "description": "Artificial Scarcity: Time/quantity limits drive urgency and spending"
+            },
+        }
+
+    def detect_bias(self, pricing_text: str, bias_type: str) -> BiasScore:
+        """
+        Detect presence of a specific bias in pricing text.
+
+        Args:
+            pricing_text: Description of pricing structure
+            bias_type: Type of bias to detect
+
+        Returns:
+            BiasScore with detection results
+        """
+        if bias_type not in self.bias_patterns:
+            raise ValueError(f"Unknown bias type: {bias_type}")
+
+        patterns = self.bias_patterns[bias_type]
+        text_lower = pricing_text.lower()
+
+        # Keyword matching
+        matched_keywords = []
+        for keyword in patterns["keywords"]:
+            if keyword in text_lower:
+                matched_keywords.append(keyword)
+
+        keyword_score = min(len(matched_keywords) * 8, 50)  # Up to 50 from keywords
+
+        # Pattern matching
+        pattern_matches = []
+        for pattern in patterns["patterns"]:
+            if re.search(pattern, text_lower, re.IGNORECASE):
+                pattern_matches.append(pattern)
+                keyword_score += 15  # Boost from pattern match
+
+        keyword_score = min(keyword_score, 100)
+
+        # Confidence based on number of indicators
+        total_indicators = len(matched_keywords) + len(pattern_matches)
+        confidence = min(total_indicators / 5, 1.0)  # Saturate at 5+ indicators
+
+        indicators = matched_keywords[:3]  # Show top 3 indicators
+
+        return BiasScore(
+            name=bias_type.replace("_", " ").title(),
+            score=keyword_score,
+            confidence=confidence,
+            indicators=indicators,
+            explanation=patterns["description"]
+        )
+
+    def analyze_pricing(self, pricing_text: str) -> Tuple[List[BiasScore], float]:
+        """
+        Analyze pricing structure for all biases.
+
+        Args:
+            pricing_text: Full pricing description
+
+        Returns:
+            Tuple of (list of BiasScores, overall manipulation score 0-100)
+        """
+        bias_scores = []
+
+        for bias_type in self.bias_patterns.keys():
+            score = self.detect_bias(pricing_text, bias_type)
+            bias_scores.append(score)
+
+        # Calculate overall manipulation score
+        # Average score, weighted by confidence
+        if bias_scores:
+            weighted_sum = sum(s.score * s.confidence for s in bias_scores)
+            total_confidence = sum(s.confidence for s in bias_scores)
+            overall_score = weighted_sum / total_confidence if total_confidence > 0 else 0
+        else:
+            overall_score = 0
+
+        # Sort by score descending
+        bias_scores.sort(key=lambda x: x.score, reverse=True)
+
+        return bias_scores, overall_score
+
+    def get_summary(self, overall_score: float) -> str:
+        """Generate summary of manipulation level"""
+        if overall_score < 20:
+            return "Low: Minimal bias exploitation detected"
+        elif overall_score < 40:
+            return "Moderate: Some behavioral pricing tactics present"
+        elif overall_score < 60:
+            return "High: Multiple bias exploitation tactics employed"
+        elif overall_score < 80:
+            return "Very High: Extensive behavioral pricing optimization"
+        else:
+            return "Extreme: Aggressive multi-bias exploitation strategy"
+
+
+# Pre-loaded examples
+EXAMPLES = {
+    "Fortnite Battle Pass": {
+        "description": "Fortnite Battle Pass",
+        "text": """
+        Fortnite Battle Pass ($9.99/season, seasonal 10-week duration):
+        - Limited-time exclusive cosmetics and skins
+        - Exclusive battle pass items never available again after season ends
+        - V-Bucks premium currency system ($9.99 for 1000 V-Bucks)
+        - Bundle deals: Save money when buying cosmetics together
+        - Rare exclusive skins that create status among players
+        - Free tier with limited rewards to encourage paid upgrade
+        - "Most Popular" pricing tier at $9.99
+        - Limited-time cosmetics available only during specific events
+        - Seasonal progression system creates sunk cost with ongoing play
+        - Friend influence: See others with exclusive cosmetics
+        - Time pressure: Battle pass expires at season end
+        - Dual currency system obfuscates true USD spending
+        """
+    },
+    "FIFA Ultimate Team": {
+        "description": "FIFA Ultimate Team (EA Sports)",
+        "text": """
+        FIFA Ultimate Team:
+        - FIFA Points premium currency (real money)
+        - Limited card packs ($4.99-$19.99) with random contents
+        - Rare "Team of the Week" cards available briefly
+        - Collectible card game with trading market
+        - Squad building creates sunk cost investment
+        - "Most Purchased" tier for popular card packs
+        - Seasonal card rotation creates urgency to buy
+        - Players show off teams in online multiplayer (social proof)
+        - Weekly limited-time special promotions
+        - Expensive star player cards drive spending
+        - Random loot boxes create gambling-like mechanics
+        - "Flash sales" on limited-time player cards
+        """
+    },
+    "Netflix": {
+        "description": "Netflix Subscription",
+        "text": """
+        Netflix Subscription Plans:
+        - Three-tier pricing: Basic ($6.99), Standard ($15.49), Premium ($22.99)
+        - Monthly recurring subscription (auto-renews)
+        - Standard tier marked as "Most Popular"
+        - Sharing restrictions create family pressure to upgrade
+        - Free trial period creates commitment
+        - Binge-watch psychology creates sunk cost
+        - Exclusive content not available elsewhere
+        - "Cancel anytime" messaging reduces abandonment
+        - Regular price increases grandfather existing users
+        - New releases create FOMO and retention
+        """
+    },
+    "Amazon Prime": {
+        "description": "Amazon Prime Membership",
+        "text": """
+        Amazon Prime Membership:
+        - Annual ($139) or monthly ($14.99) subscription options
+        - Bundle value: Free shipping, Prime Video, Prime Music, etc.
+        - Recommended upgrade from free Amazon account
+        - Monthly commitment with auto-renewal
+        - Exclusive Prime Day deals create scarcity and urgency
+        - Free trial creates sunk cost when users download app
+        - Endowment effect: Bundle makes individual services seem valuable
+        - Switching costs: Difficult to leave after using multiple services
+        - Status symbol: Prime badge on purchases
+        - Student discount creates youth market lock-in
+        """
+    },
+    "Coffee Subscription": {
+        "description": "Typical Coffee Subscription Service",
+        "text": """
+        Daily Coffee Shop Subscription Model:
+        - Loyalty card: Buy 10 coffees, get 1 free
+        - Subscription membership ($9.99/month) for daily discounts
+        - Tiered loyalty: Silver ($0.50 off), Gold ($1.00 off)
+        - Limited-time seasonal flavors (Pumpkin Spice September-October)
+        - "Save $15/month" anchor messaging for subscription
+        - Gamification: Collect stamps, unlock tiers
+        - Mobile app rewards create habit formation
+        - Social proof: "#1 Coffee Shop in the City" signs
+        - Free upgrade offer "just for you" to drive trial
+        - Birthday bonus creates gift reciprocity
+        """
+    }
+}
