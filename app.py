@@ -34,10 +34,10 @@ def analyze():
         "pricing_text": "Description of pricing..."
     }
     """
-    data = request.get_json()
+    data = request.get_json(silent=True)
 
-    if not data or "pricing_text" not in data:
-        return jsonify({"error": "Missing pricing_text"}), 400
+    if not isinstance(data, dict) or not isinstance(data.get("pricing_text"), str):
+        return jsonify({"error": "pricing_text must be a string"}), 400
 
     product_name = data.get("product_name", "Unknown Product")
     pricing_text = data.get("pricing_text", "").strip()
@@ -71,7 +71,9 @@ def analyze():
 @app.route("/api/example", methods=["POST"])
 def load_example():
     """Load a pre-defined example"""
-    data = request.get_json()
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict) or not isinstance(data.get("example_name"), str):
+        return jsonify({"error": "example_name must be a string"}), 400
     example_name = data.get("example_name")
 
     if example_name not in EXAMPLES:
